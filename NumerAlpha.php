@@ -1,4 +1,3 @@
-<source lang="php">
 <?php
 
 /**
@@ -24,7 +23,7 @@ $wgExtensionCredits['parserhook'][] = array(
 	'name' => 'NumerAlpha',
 	'version' => '0.3',
 	'author' => array( 'Thierry G. Veilleux', '...' ),
-	'description' => 'Provides an incremental tag with zero padded numbers, roman and alpha numbers',
+	'descriptionmsg' => 'numeralpha-desc',
 	'url' => 'https://www.mediawiki.org/wiki/Extension:NumerAlpha'
 );
 
