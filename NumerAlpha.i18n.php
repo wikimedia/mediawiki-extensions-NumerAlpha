@@ -25,3 +25,5 @@ $messages['en'] = array(
 $messages['qqq'] = array(
 	'numeralpha-desc' => '{{desc|name=Numer Alpha|url=http://www.mediawiki.org/wiki/Extension:NumerAlpha}}',
 );
+
+
