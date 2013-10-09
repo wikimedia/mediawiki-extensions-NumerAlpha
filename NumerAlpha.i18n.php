@@ -26,4 +26,37 @@ $messages['qqq'] = array(
 	'numeralpha-desc' => '{{desc|name=Numer Alpha|url=http://www.mediawiki.org/wiki/Extension:NumerAlpha}}',
 );
 
+/** German (Deutsch)
+ * @author Metalhead64
+ */
+$messages['de'] = array(
+	'numeralpha-desc' => 'Ergänzt ein inkrementelles Tag mit nullgefüllten, römischen und alphanumerischen Zahlen',
+);
 
+/** French (français)
+ * @author Gomoko
+ */
+$messages['fr'] = array(
+	'numeralpha-desc' => 'Fournit une balise incrémentale avec des nombres complétés par des zéros, des nombres romains et alphabétiques',
+);
+
+/** Japanese (日本語)
+ * @author Shirayuki
+ */
+$messages['ja'] = array(
+	'numeralpha-desc' => '0 補完された番号およびアルファベットからなる連番のタグを提供する',
+);
+
+/** Macedonian (македонски)
+ * @author Bjankuloski06
+ */
+$messages['mk'] = array(
+	'numeralpha-desc' => 'Дава зголемувачка ознака со бројки со почетни нули, римски бројки и азбучнобројчени бројки',
+);
+
+/** Ukrainian (українська)
+ * @author Andriykopanytsia
+ */
+$messages['uk'] = array(
+	'numeralpha-desc' => 'Забезпечує зростаючий тег з доповненими нулями числами, латинськими числами або алфавітно-числовими виразами',
+);
