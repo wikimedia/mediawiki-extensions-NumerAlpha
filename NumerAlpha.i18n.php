@@ -40,6 +40,13 @@ $messages['fr'] = array(
 	'numeralpha-desc' => 'Fournit une balise incrémentale avec des nombres complétés par des zéros, des nombres romains et alphabétiques',
 );
 
+/** Galician (galego)
+ * @author Toliño
+ */
+$messages['gl'] = array(
+	'numeralpha-desc' => 'Proporciona unha etiqueta incremental con números precedidos por ceros e números romanos e alfabéticos',
+);
+
 /** Japanese (日本語)
  * @author Shirayuki
  */
