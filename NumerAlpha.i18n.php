@@ -74,3 +74,10 @@ $messages['ru'] = array(
 $messages['uk'] = array(
 	'numeralpha-desc' => 'Забезпечує зростаючий тег з доповненими нулями числами, латинськими числами або алфавітно-числовими виразами',
 );
+
+/** Simplified Chinese (中文（简体）‎)
+ * @author Liuxinyu970226
+ */
+$messages['zh-hans'] = array(
+	'numeralpha-desc' => '通过零填充数字、罗马和阿尔法数字提供增量标签',
+);
