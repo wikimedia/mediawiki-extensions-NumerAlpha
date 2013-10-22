@@ -26,6 +26,13 @@ $messages['qqq'] = array(
 	'numeralpha-desc' => '{{desc|name=Numer Alpha|url=http://www.mediawiki.org/wiki/Extension:NumerAlpha}}',
 );
 
+/** Asturian (asturianu)
+ * @author Xuacu
+ */
+$messages['ast'] = array(
+	'numeralpha-desc' => "Ufre una etiqueta d'incrementu con númberos precedíos por ceros, númberos romanos y alfa-numbéricos",
+);
+
 /** German (Deutsch)
  * @author Metalhead64
  */
