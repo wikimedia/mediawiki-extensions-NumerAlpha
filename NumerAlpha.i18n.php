@@ -68,6 +68,13 @@ $messages['mk'] = array(
 	'numeralpha-desc' => 'Дава зголемувачка ознака со бројки со почетни нули, римски бројки и азбучнобројчени бројки',
 );
 
+/** Occitan (occitan)
+ * @author Cedric31
+ */
+$messages['oc'] = array(
+	'numeralpha-desc' => 'Provesís una balisa incrementale amb de nombres completats per de zèros, de nombres romans e alfabetics',
+);
+
 /** Russian (русский)
  * @author Okras
  */
