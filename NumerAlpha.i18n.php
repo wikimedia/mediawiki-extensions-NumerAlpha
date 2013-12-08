@@ -68,6 +68,13 @@ $messages['mk'] = array(
 	'numeralpha-desc' => 'Дава зголемувачка ознака со бројки со почетни нули, римски бројки и азбучнобројчени бројки',
 );
 
+/** Dutch (Nederlands)
+ * @author Siebrand
+ */
+$messages['nl'] = array(
+	'numeralpha-desc' => 'Biedt een incrementeel label met voorloop nullen, Romeins en alfanumeriek.',
+);
+
 /** Occitan (occitan)
  * @author Cedric31
  */
