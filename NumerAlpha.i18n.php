@@ -35,9 +35,10 @@ $messages['ast'] = array(
 
 /** German (Deutsch)
  * @author Metalhead64
+ * @author Purodha
  */
 $messages['de'] = array(
-	'numeralpha-desc' => 'Ergänzt ein inkrementelles Tag mit nullgefüllten, römischen und alphanumerischen Zahlen',
+	'numeralpha-desc' => 'Schafft ein Tag mit inkrementierbaren nullgefüllten, römischen Zahlen und Buchstaben',
 );
 
 /** French (français)
@@ -59,6 +60,13 @@ $messages['gl'] = array(
  */
 $messages['ja'] = array(
 	'numeralpha-desc' => '0 補完された番号およびアルファベットからなる連番のタグを提供する',
+);
+
+/** Colognian (Ripoarisch)
+ * @author Purodha
+ */
+$messages['ksh'] = array(
+	'numeralpha-desc' => 'Bräng_ene Befähl, womet mer Zahle, römesche Zahle un Boochschtahbe hhzälle un enfööje kann.',
 );
 
 /** Macedonian (македонски)
