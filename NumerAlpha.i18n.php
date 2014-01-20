@@ -62,6 +62,13 @@ $messages['ja'] = array(
 	'numeralpha-desc' => '0 補完された番号およびアルファベットからなる連番のタグを提供する',
 );
 
+/** Korean (한국어)
+ * @author Priviet
+ */
+$messages['ko'] = array(
+	'numeralpha-desc' => '0으로 보완된 번호 및 로마 숫자로 증분 태그를 제공',
+);
+
 /** Colognian (Ripoarisch)
  * @author Purodha
  */
