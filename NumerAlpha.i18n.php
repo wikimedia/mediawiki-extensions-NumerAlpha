@@ -41,6 +41,13 @@ $messages['de'] = array(
 	'numeralpha-desc' => 'Schafft ein Tag mit inkrementierbaren nullgefüllten, römischen Zahlen und Buchstaben',
 );
 
+/** Persian (فارسی)
+ * @author Armin1392
+ */
+$messages['fa'] = array(
+	'numeralpha-desc' => 'ارائهٔ یک برچسب افزایشی با اعداد پوشیده شده از صفر، اعداد رومی و آلفا',
+);
+
 /** French (français)
  * @author Gomoko
  */
