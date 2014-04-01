@@ -1,10 +1,7 @@
 <?php
-
 /**
  * NumerAlpha MediaWiki extension - Provides an incremental tag
  * with zero padded numbers, roman and alpha numbers
- *
- * @version 0.3.0 - 2012/02/07
  *
  * @link http://www.mediawiki.org/wiki/Extension:NumerAlpha Documentation
  * @file NumerAlpha.php
@@ -21,12 +18,13 @@ if ( !defined( 'MEDIAWIKI' ) ) {
 // Tell everybody who we are
 $wgExtensionCredits['parserhook'][] = array(
 	'name' => 'NumerAlpha',
-	'version' => '0.3',
+	'version' => '0.4.0',
 	'author' => array( 'Thierry G. Veilleux', '...' ),
 	'descriptionmsg' => 'numeralpha-desc',
 	'url' => 'https://www.mediawiki.org/wiki/Extension:NumerAlpha'
 );
 
+$wgMessagesDirs['NumberAlpha'] = __DIR__ . '/i18n';
 $wgHooks['ParserFirstCallInit'][] = 'wfSampleParserInit';
 
 // Hook our callback function into the parser
@@ -47,7 +45,7 @@ $numer[2] = 1; //roman
 // Execute
 function wfAlphaRender( $input, array $argv, Parser $parser, PPFrame $frame ) {
     global $numer;
-    
+
     if (isset($argv['reset']) && $argv['reset'] == "yes" OR isset($argv['reset']) && $argv['reset'] == "1") {$numer[0] = 1;}
     if (isset($argv['begin']) && $argv['begin'] != "") {$numer[0] = $argv['begin'];}
     $num = $numer[0]++;
@@ -66,7 +64,7 @@ function wfAlphaRender( $input, array $argv, Parser $parser, PPFrame $frame ) {
 
 function wfNumeralRender( $input, array $argv, Parser $parser, PPFrame $frame ) {
     global $numer;
-    
+
     if (isset($argv['reset']) && $argv['reset'] == "yes" OR isset($argv['reset']) && $argv['reset'] == "1") {$numer[1] = 1;}
     if (isset($argv['begin']) && $argv['begin'] != "") {$numer[1] = $argv['begin'];}
     $num = $numer[1]++;
@@ -79,35 +77,35 @@ function wfNumeralRender( $input, array $argv, Parser $parser, PPFrame $frame ) 
 
 function wfRomanRender( $input, array $argv, Parser $parser, PPFrame $frame ) {
     global $numer;
-    
+
     if (isset($argv['reset']) && $argv['reset'] == "yes" OR isset($argv['reset']) && $argv['reset'] == "1") {$numer[2] = 1;}
     if (isset($argv['begin']) && $argv['begin'] != "") {$numer[2] = $argv['begin'];}
     $num = $numer[2]++;
     $n = intval($num);
     $result = '';
     $equival = array(
-    'm' => 1000, 
-    'cm' => 900, 
-    'd' => 500, 
+    'm' => 1000,
+    'cm' => 900,
+    'd' => 500,
     'cd' => 400,
-    'c' => 100, 
-    'xc' => 90, 
-    'l' => 50, 
+    'c' => 100,
+    'xc' => 90,
+    'l' => 50,
     'xl' => 40,
-    'x' => 10, 
-    'ix' => 9, 
-    'v' => 5, 
-    'iv' => 4, 
+    'x' => 10,
+    'ix' => 9,
+    'v' => 5,
+    'iv' => 4,
     'i' => 1
     );
-    foreach ($equival as $roma => $val) 
+    foreach ($equival as $roma => $val)
     {
         $concordances = intval($n / $val);
          $result .= str_repeat($roma, $concordances);
                 $n = $n % $val;
     }
- 
+
     $output = $result;
-    
+
     return  htmlspecialchars($output .'. '. $input).'<br/>';
 }

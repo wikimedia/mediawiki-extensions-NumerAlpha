@@ -1,0 +1,8 @@
+{
+    "@metadata": {
+        "authors": [
+            "Thierry G. Veilleux (Kronoxt)"
+        ]
+    },
+    "numeralpha-desc": "Provides an incremental tag with zero padded numbers, roman and alpha numbers"
+}
