@@ -1,9 +1,9 @@
 {
-    "@metadata": {
-        "authors": [
-            "Metalhead64",
-            "Purodha"
-        ]
-    },
-    "numeralpha-desc": "Schafft ein Tag mit inkrementierbaren nullgefüllten, römischen Zahlen und Buchstaben"
+	"@metadata": {
+		"authors": [
+			"Metalhead64",
+			"Purodha"
+		]
+	},
+	"numeralpha-desc": "Schafft ein Tag mit inkrementierbaren nullgefüllten, römischen Zahlen und Buchstaben"
 }

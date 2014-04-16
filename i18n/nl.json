@@ -1,8 +1,8 @@
 {
-    "@metadata": {
-        "authors": [
-            "Siebrand"
-        ]
-    },
-    "numeralpha-desc": "Biedt een incrementeel label met voorloop nullen, Romeins en alfanumeriek."
+	"@metadata": {
+		"authors": [
+			"Siebrand"
+		]
+	},
+	"numeralpha-desc": "Biedt een incrementeel label met voorloop nullen, Romeins en alfanumeriek."
 }

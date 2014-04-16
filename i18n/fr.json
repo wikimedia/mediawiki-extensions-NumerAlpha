@@ -1,8 +1,8 @@
 {
-    "@metadata": {
-        "authors": [
-            "Gomoko"
-        ]
-    },
-    "numeralpha-desc": "Fournit une balise incrémentale avec des nombres complétés par des zéros, des nombres romains et alphabétiques"
+	"@metadata": {
+		"authors": [
+			"Gomoko"
+		]
+	},
+	"numeralpha-desc": "Fournit une balise incrémentale avec des nombres complétés par des zéros, des nombres romains et alphabétiques"
 }
