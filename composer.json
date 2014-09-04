@@ -1,0 +1,31 @@
+{
+	"name": "mediawiki/numer-alpha",
+	"type": "mediawiki-extension",
+	"description": "Provides methods of inserting incrementing numbers, letters, and roman numerals into MediaWiki.",
+	"keywords": [
+		"MediaWiki",
+		"Formatting"
+	],
+	"homepage": "https://www.mediawiki.org/wiki/Extension:NumerAlpha",
+	"license": "GPL-2.0+",
+	"authors": [
+		{
+			"name": "Thierry G. Veilleux",
+			"role": "Original developer"
+		},
+		{
+			"name": "James Montalvo",
+			"role": "Current developer"
+		}
+	],
+	"support": {
+		"issues": "https://bugzilla.wikimedia.org/",
+		"github": "https://github.com/enterprisemediawiki/NumerAlpha/issues"
+	},
+	"require": {
+		"composer/installers": ">=1.0.1"
+	},
+	"autoload": {
+		"files": ["NumerAlpha.php"]
+	}
+}

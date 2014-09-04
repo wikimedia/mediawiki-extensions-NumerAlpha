@@ -4,5 +4,14 @@
             "Thierry G. Veilleux (Kronoxt)"
         ]
     },
-    "numeralpha-desc": "Provides an incremental tag with zero padded numbers, roman and alpha numbers"
+    "numeralpha-desc": "Provides an incremental tag with zero padded numbers, roman and alpha numbers",
+	"ext-numeralpha-list-type-numeral": "numeral",
+	"ext-numeralpha-list-type-alpha": "alpha",
+	"ext-numeralpha-list-type-roman": "roman",
+	"ext-numeralpha-list-type-label": "type",
+	"ext-numeralpha-list-set-label": "set",
+	"ext-numeralpha-list-pad-length": "pad length",
+	"ext-numeralpha-list-pad-char": "pad character",
+	"ext-numeralpha-list-prefix": "prefix",
+	"ext-numeralpha-list-suffix": "suffix"
 }
