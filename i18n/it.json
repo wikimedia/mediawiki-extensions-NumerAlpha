@@ -1,0 +1,8 @@
+{
+	"@metadata": {
+		"authors": [
+			"Beta16"
+		]
+	},
+	"numeralpha-desc": "Fornisce un tag incrementale di numeri con zeri iniziali, numeri romani e alfabetico"
+}
