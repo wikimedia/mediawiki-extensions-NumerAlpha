@@ -25,10 +25,10 @@ $wgExtensionCredits['parserhook'][] = array(
 );
 
 $wgMessagesDirs['NumberAlpha'] = __DIR__ . '/i18n';
-$wgHooks['ParserFirstCallInit'][] = 'wfSampleParserInit';
+$wgHooks['ParserFirstCallInit'][] = 'wfNumerAlphaParserInit';
 
 // Hook our callback function into the parser
-function wfSampleParserInit( Parser &$parser ) {
+function wfNumerAlphaParserInit( Parser &$parser ) {
         // When the parser sees the <sample> tag, it executes
         // the wfSampleRender function (see below)
         $parser->setHook( 'ia', 'wfAlphaRender' );
