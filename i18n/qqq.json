@@ -1,8 +1,9 @@
 {
 	"@metadata": {
 		"authors": [
-			"Raimond Spekking"
+			"Raimond Spekking",
+			"Umherirrender"
 		]
 	},
-	"numeralpha-desc": "{{desc|name=Numer Alpha|url=http://www.mediawiki.org/wiki/Extension:NumerAlpha}}"
+	"numeralpha-desc": "{{desc|name=Numer Alpha|url=https://www.mediawiki.org/wiki/Extension:NumerAlpha}}"
 }
