@@ -5,5 +5,14 @@
 			"Purodha"
 		]
 	},
-	"numeralpha-desc": "Schafft ein Tag mit inkrementierbaren nullgefüllten, römischen Zahlen und Buchstaben"
+	"numeralpha-desc": "Schafft ein Tag mit inkrementierbaren nullgefüllten, römischen Zahlen und Buchstaben",
+	"ext-numeralpha-list-type-numeral": "numerisch",
+	"ext-numeralpha-list-type-alpha": "alphabetisch",
+	"ext-numeralpha-list-type-roman": "römisch",
+	"ext-numeralpha-list-type-label": "Typ",
+	"ext-numeralpha-list-set-label": "Satz",
+	"ext-numeralpha-list-pad-length": "Padlänge",
+	"ext-numeralpha-list-pad-char": "Padzeichen",
+	"ext-numeralpha-list-prefix": "Präfix",
+	"ext-numeralpha-list-suffix": "Suffix"
 }

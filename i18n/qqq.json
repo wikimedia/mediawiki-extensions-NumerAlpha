@@ -6,7 +6,7 @@
 			"James Montalvo"
 		]
 	},
-	"numeralpha-desc": "{{desc|name=Numer Alpha|url=http://www.mediawiki.org/wiki/Extension:NumerAlpha}}",
+	"numeralpha-desc": "{{desc|name=Numer Alpha|url=https://www.mediawiki.org/wiki/Extension:NumerAlpha}}",
 	"ext-numeralpha-list-type-numeral": "Word used to indicate that the list type will be numeric",
 	"ext-numeralpha-list-type-alpha": "Word used to indicate that the list type will be alphabetical",
 	"ext-numeralpha-list-type-roman": "Word used to indicate that the list type will be Roman numerals",
