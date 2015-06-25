@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"Macofe"
+		]
+	},
+	"ext-numeralpha-list-type-numeral": "numérica",
+	"ext-numeralpha-list-type-alpha": "alfabética",
+	"ext-numeralpha-list-type-roman": "romano",
+	"ext-numeralpha-list-type-label": "tipo",
+	"ext-numeralpha-list-set-label": "selecciona",
+	"ext-numeralpha-list-prefix": "prefijo",
+	"ext-numeralpha-list-suffix": "sufijo"
+}

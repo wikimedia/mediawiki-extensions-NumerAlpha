@@ -3,17 +3,18 @@
 		"authors": [
 			"Raimond Spekking",
 			"Umherirrender",
-			"James Montalvo"
+			"James Montalvo",
+			"Liuxinyu970226"
 		]
 	},
 	"numeralpha-desc": "{{desc|name=Numer Alpha|url=https://www.mediawiki.org/wiki/Extension:NumerAlpha}}",
 	"ext-numeralpha-list-type-numeral": "Word used to indicate that the list type will be numeric",
 	"ext-numeralpha-list-type-alpha": "Word used to indicate that the list type will be alphabetical",
 	"ext-numeralpha-list-type-roman": "Word used to indicate that the list type will be Roman numerals",
-	"ext-numeralpha-list-type-label": "Parser function parameter name for \"type\", which indicates the list type (numeric, alpahbetical or Roman numerals)",
+	"ext-numeralpha-list-type-label": "Parser function parameter name for \"type\", which indicates the list type (numeric, alpahbetical or Roman numerals)\n{{Identical|Type}}",
 	"ext-numeralpha-list-set-label": "Parser function parameter name for \"set\", which indicates what value to start the list at",
 	"ext-numeralpha-list-pad-length": "Parser function parameter name for \"pad length\"",
 	"ext-numeralpha-list-pad-char": "Parser function parameter name for \"pad character\"",
-	"ext-numeralpha-list-prefix": "Parser function parameter name for \"prefix\"",
+	"ext-numeralpha-list-prefix": "Parser function parameter name for \"prefix\"\n{{Identical|Prefix}}",
 	"ext-numeralpha-list-suffix": "Parser function parameter name for \"suffix\""
 }

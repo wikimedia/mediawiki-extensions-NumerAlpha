@@ -1,8 +1,16 @@
 {
 	"@metadata": {
 		"authors": [
-			"Beta16"
+			"Beta16",
+			"Fringio"
 		]
 	},
-	"numeralpha-desc": "Fornisce un tag incrementale di numeri con zeri iniziali, numeri romani e alfabetico"
+	"numeralpha-desc": "Fornisce un tag incrementale di numeri con zeri iniziali, numeri romani e alfabetico",
+	"ext-numeralpha-list-type-numeral": "numero",
+	"ext-numeralpha-list-type-alpha": "alfa",
+	"ext-numeralpha-list-type-roman": "numero romano",
+	"ext-numeralpha-list-type-label": "tipo",
+	"ext-numeralpha-list-set-label": "imposta",
+	"ext-numeralpha-list-prefix": "prefisso",
+	"ext-numeralpha-list-suffix": "suffisso"
 }

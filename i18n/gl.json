@@ -1,8 +1,18 @@
 {
 	"@metadata": {
 		"authors": [
-			"Toliño"
+			"Toliño",
+			"Banjo"
 		]
 	},
-	"numeralpha-desc": "Proporciona unha etiqueta incremental con números precedidos por ceros e números romanos e alfabéticos"
+	"numeralpha-desc": "Proporciona unha etiqueta incremental con números precedidos por ceros e números romanos e alfabéticos",
+	"ext-numeralpha-list-type-numeral": "numeral",
+	"ext-numeralpha-list-type-alpha": "alfa",
+	"ext-numeralpha-list-type-roman": "romano",
+	"ext-numeralpha-list-type-label": "tipo",
+	"ext-numeralpha-list-set-label": "definir",
+	"ext-numeralpha-list-pad-length": "lonxitude do recheo",
+	"ext-numeralpha-list-pad-char": "carácter de recheo",
+	"ext-numeralpha-list-prefix": "prefixo",
+	"ext-numeralpha-list-suffix": "sufixo"
 }

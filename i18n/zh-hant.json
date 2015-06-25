@@ -1,8 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
-			"Cwlin0416"
+			"Cwlin0416",
+			"Liuxinyu970226"
 		]
 	},
-	"numeralpha-desc": "提供遞增編號的標籤，包含補零編號、羅馬及字母編號"
+	"numeralpha-desc": "提供遞增編號的標籤，包含補零編號、羅馬及字母編號",
+	"ext-numeralpha-list-type-label": "類型",
+	"ext-numeralpha-list-prefix": "字首"
 }
