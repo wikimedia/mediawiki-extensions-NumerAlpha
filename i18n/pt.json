@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"Vitorvicentevalente"
+		]
+	},
+	"ext-numeralpha-list-type-numeral": "numérica",
+	"ext-numeralpha-list-type-roman": "romana",
+	"ext-numeralpha-list-type-label": "tipo",
+	"ext-numeralpha-list-prefix": "prefixo",
+	"ext-numeralpha-list-suffix": "sufixo"
+}
