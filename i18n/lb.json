@@ -4,5 +4,8 @@
 			"Robby"
 		]
 	},
+	"ext-numeralpha-list-type-numeral": "numeresch",
+	"ext-numeralpha-list-type-alpha": "alphabetesch",
+	"ext-numeralpha-list-type-roman": "réimesch",
 	"ext-numeralpha-list-type-label": "Typ"
 }

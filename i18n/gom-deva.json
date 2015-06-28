@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"Vaishali Parab"
+		]
+	},
+	"ext-numeralpha-list-type-alpha": "आल्फा",
+	"ext-numeralpha-list-type-roman": "रोमन",
+	"ext-numeralpha-list-type-label": "प्रकार",
+	"ext-numeralpha-list-prefix": "प्रेफीक्स",
+	"ext-numeralpha-list-suffix": "सफीक्स"
+}

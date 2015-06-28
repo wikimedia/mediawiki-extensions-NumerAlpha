@@ -1,8 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
-			"Gomoko"
+			"Gomoko",
+			"Macofe"
 		]
 	},
-	"numeralpha-desc": "Fournit une balise incrémentale avec des nombres complétés par des zéros, des nombres romains et alphabétiques"
+	"numeralpha-desc": "Fournit une balise incrémentale avec des nombres complétés par des zéros, des nombres romains et alphabétiques",
+	"ext-numeralpha-list-type-label": "type",
+	"ext-numeralpha-list-prefix": "préfixe"
 }

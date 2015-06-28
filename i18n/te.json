@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Praveen Illa"
+		]
+	},
+	"ext-numeralpha-list-type-numeral": "సాంఖ్యకం",
+	"ext-numeralpha-list-type-alpha": "ఆల్ఫా",
+	"ext-numeralpha-list-type-label": "రకం",
+	"ext-numeralpha-list-pad-length": "ప్యాడ్ పొడవు"
+}

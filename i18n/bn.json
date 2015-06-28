@@ -1,0 +1,17 @@
+{
+	"@metadata": {
+		"authors": [
+			"Aftabuzzaman",
+			"Jim Carter"
+		]
+	},
+	"ext-numeralpha-list-type-numeral": "সংখ্যাগত",
+	"ext-numeralpha-list-type-alpha": "আলফা",
+	"ext-numeralpha-list-type-roman": "রোমান",
+	"ext-numeralpha-list-type-label": "ধরন",
+	"ext-numeralpha-list-set-label": "সেট",
+	"ext-numeralpha-list-pad-length": "প্যাডের দৈর্ঘ্য",
+	"ext-numeralpha-list-pad-char": "প্যাডের ধরন",
+	"ext-numeralpha-list-prefix": "উপসর্গ",
+	"ext-numeralpha-list-suffix": "প্রত্যয়"
+}
