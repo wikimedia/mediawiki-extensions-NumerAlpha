@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"Умар"
+		]
+	},
+	"ext-numeralpha-list-type-numeral": "терахь",
+	"ext-numeralpha-list-type-alpha": "альфа",
+	"ext-numeralpha-list-type-roman": "риман",
+	"ext-numeralpha-list-type-label": "тайпа",
+	"ext-numeralpha-list-set-label": "гулам",
+	"ext-numeralpha-list-prefix": "префикс",
+	"ext-numeralpha-list-suffix": "суффикс"
+}
