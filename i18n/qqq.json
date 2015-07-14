@@ -12,7 +12,7 @@
 	"ext-numeralpha-list-type-alpha": "Word used to indicate that the list type will be alphabetical",
 	"ext-numeralpha-list-type-roman": "Word used to indicate that the list type will be Roman numerals",
 	"ext-numeralpha-list-type-label": "Parser function parameter name for \"type\", which indicates the list type (numeric, alpahbetical or Roman numerals)\n{{Identical|Type}}",
-	"ext-numeralpha-list-set-label": "Parser function parameter name for \"set\", which indicates what value to start the list at",
+	"ext-numeralpha-list-set-label": "Parser function parameter name for \"set\", which indicates what value to start the list at\n{{Identical|Set}}",
 	"ext-numeralpha-list-pad-length": "Parser function parameter name for \"pad length\"",
 	"ext-numeralpha-list-pad-char": "Parser function parameter name for \"pad character\"",
 	"ext-numeralpha-list-prefix": "Parser function parameter name for \"prefix\"\n{{Identical|Prefix}}",
