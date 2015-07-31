@@ -68,7 +68,9 @@ class NumerAlpha {
 		}
 
 		if ( ! isset( self::$lists[ $name ] ) ) {
-			self::$lists[ $name ] = array();
+			self::$lists[ $name ] = array(
+				'levels' => array(),
+			);
 		}
 
 		foreach( $rawArgs as $rawArg ) {
@@ -87,6 +89,9 @@ class NumerAlpha {
 						break;
 					case wfMessage( 'ext-numeralpha-list-set-label' )->text():
 						$newCountValue = intVal( $value );
+						if ( $newCountValue < 1 ) {
+							$newCountValue = 1;
+						}
 						break;
 					case wfMessage( 'ext-numeralpha-list-pad-length' )->text():
 						self::$lists[ $name ][ 'padlength' ] = intVal( $value );
@@ -100,22 +105,77 @@ class NumerAlpha {
 					case wfMessage( 'ext-numeralpha-list-suffix' )->text():
 						self::$lists[ $name ][ 'suffix' ] = $value;
 						break;
+					case wfMessage( 'ext-numeralpha-list-level-label' )->text():
+						self::$lists[ $name ][ 'level' ] = intVal($value);
+						break;
+					case wfMessage( 'ext-numeralpha-list-level-prefix-label' )->text():
+						self::$lists[ $name ][ 'level prefix' ] = $value;
+						break;
+					case wfMessage( 'ext-numeralpha-list-format-label' )->text():
+						if ( $value === wfMessage( 'ext-numeralpha-list-format-outline' )->text() ) {
+							self::$lists[ $name ][ 'format' ] = 'outline';
+						}
+						else {
+							self::$lists[ $name ][ 'format' ] = 'standard';
+						}
+						break;
 				}
 
 			}
 
 		}
 
-		// either set count value or increment existing value
-		if ( isset( $newCountValue ) ) {
-			self::$lists[ $name ][ 'count' ] = $newCountValue;
+		// if level not specifed, use the previous level if there is one
+		if ( isset( self::$lists[ $name ][ 'level' ] ) ) {
+			$farts = true;
 		}
-		else if ( isset( self::$lists[ $name ][ 'count' ] ) ) {
-			self::$lists[ $name ][ 'count' ]++;
+		elseif ( isset( self::$lists[ $name ][ 'prev-level' ] ) ) {
+			self::$lists[ $name ][ 'level' ] = self::$lists[ $name ][ 'prev-level' ];
 		}
+		// otherwise set level to 1
 		else {
-			self::$lists[ $name ][ 'count' ] = 1;
+			self::$lists[ $name ][ 'level' ] = 1;
 		}
+		self::$lists[ $name ][ 'prev-level' ] = self::$lists[ $name ][ 'level' ];
+
+		// if user inputs level 1, equates to array index zero
+		$levelIndex = self::$lists[ $name ][ 'level' ] - 1;
+
+		// if level has been used before (and hasn't been reset due to lower
+		// level being used) then increase the count on this level
+		if ( isset( self::$lists[ $name ][ 'levels' ][ $levelIndex ] ) ) {
+			self::$lists[ $name ][ 'levels' ][ $levelIndex ]++;
+		}
+
+		// @todo FIXME this shoudln't be necessary
+		else {
+			self::$lists[ $name ][ 'levels' ][ $levelIndex ] = 1;
+		}
+
+		// Make sure all levels are set. Fill in blanks with 1.
+		// Is this excessive?
+		for ( $i = 0; $i <= $levelIndex; $i++ ) {
+			if ( ! isset( self::$lists[ $name ][ 'levels' ][ $i ] ) ) {
+				self::$lists[ $name ][ 'levels' ][ $i ] = 1;
+			}
+		}
+
+		// if indices exist beyond the desired level, cut the array of levels
+		// down just to the zeroth index through the desired index
+		if ( isset( self::$lists[ $name ][ 'levels' ][ $levelIndex + 1 ] ) ) {
+			self::$lists[ $name ][ 'levels' ] = array_slice(
+				self::$lists[ $name ][ 'levels' ],
+				0,
+				self::$lists[ $name ][ 'level' ] // AKA $levelIndex + 1
+			);
+		}
+
+		// despite all the level-working above, if user has specified a new
+		// count value, override:
+		if ( isset( $newCountValue ) ) {
+			self::$lists[ $name ][ 'levels' ][ $levelIndex ] = $newCountValue;
+		}
+
 
 		// set default list type if not already set
 		if ( ! isset( self::$lists[ $name ][ 'type' ] ) ) {
@@ -142,6 +202,29 @@ class NumerAlpha {
 		}
 		if ( ! isset( self::$lists[ $name ][ 'suffix' ] ) ) {
 			self::$lists[ $name ][ 'suffix' ] = '';
+		}
+
+		// level prefix = string applied before counter, x times per level
+		if ( ! isset( self::$lists[ $name ][ 'level prefix' ] ) ) {
+			self::$lists[ $name ][ 'level prefix' ] = '';
+		}
+		self::$lists[ $name ][ 'full level prefix' ] = str_repeat(
+			self::$lists[ $name ][ 'level prefix' ],
+			self::$lists[ $name ][ 'level' ]
+		);
+
+
+		// This if-statement determines if we're using standard or outline format
+		// self::$lists[ $name ][ 'count' ] is the display for the counter.
+		// The name sucks, but is here for now due to historical naming.
+		if ( ! isset( self::$lists[ $name ][ 'format' ] ) || self::$lists[ $name ][ 'format' ] == 'standard' ) {
+			self::$lists[ $name ][ 'count' ] = self::$lists[ $name ][ 'levels' ][ $levelIndex ];
+		}
+		else {
+			self::$lists[ $name ][ 'count' ] = implode(
+				wfMessage( 'ext-numeralpha-list-format-outline-glue' ),
+				self::$lists[ $name ][ 'levels' ]
+			);
 		}
 
 		return self::$lists[ $name ];
@@ -180,7 +263,7 @@ class NumerAlpha {
 			STR_PAD_LEFT // this may require internationalization...
 		);
 
-		return htmlspecialchars( $list[ 'prefix' ] . $counterValue . $list[ 'suffix' ] );
+		return htmlspecialchars( $list['full level prefix'] . $list[ 'prefix' ] . $counterValue . $list[ 'suffix' ] );
 	}
 
 
@@ -195,7 +278,7 @@ class NumerAlpha {
 			$num = $num / 26;
 		}
 
-		return htmlspecialchars( $list[ 'prefix' ] . $alpha . $list[ 'suffix' ] );
+		return htmlspecialchars( $list['full level prefix'] . $list[ 'prefix' ] . $alpha . $list[ 'suffix' ] );
 
 	}
 
@@ -221,11 +304,11 @@ class NumerAlpha {
 		);
 		foreach ($equival as $roma => $val) {
 			$concordances = intval($num / $val);
-			 $result .= str_repeat($roma, $concordances);
-					$num = $num % $val;
+			$result .= str_repeat($roma, $concordances);
+			$num = $num % $val;
 		}
 
-		return htmlspecialchars( $list[ 'prefix' ] . $result . $list[ 'suffix' ] );
+		return htmlspecialchars( $list['full level prefix'] . $list[ 'prefix' ] . $result . $list[ 'suffix' ] );
 
 	}
 

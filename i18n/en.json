@@ -13,5 +13,11 @@
 	"ext-numeralpha-list-pad-length": "pad length",
 	"ext-numeralpha-list-pad-char": "pad character",
 	"ext-numeralpha-list-prefix": "prefix",
-	"ext-numeralpha-list-suffix": "suffix"
+	"ext-numeralpha-list-suffix": "suffix",
+	"ext-numeralpha-list-level-label": "level",
+	"ext-numeralpha-list-level-prefix-label": "level prefix",
+	"ext-numeralpha-list-format-label": "format",
+	"ext-numeralpha-list-format-standard": "standard",
+	"ext-numeralpha-list-format-outline": "outline",
+	"ext-numeralpha-list-format-outline-glue": "."
 }
