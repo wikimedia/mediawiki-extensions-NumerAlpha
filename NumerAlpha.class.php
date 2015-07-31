@@ -24,6 +24,7 @@ class NumerAlpha {
 	);
 	static $frame = null; // set with each use of parser function...
 	static $prevName = 'default'; // default counter name
+	static $prevLevel = 0; //default level 0
 	static $lists = array();
 	static $listTypes = null;
 
@@ -86,7 +87,7 @@ class NumerAlpha {
 						}
 						break;
 					case wfMessage( 'ext-numeralpha-list-set-label' )->text():
-						$newCountValue = intVal( $value );
+						if ($value != '') $newCountValue = intVal( $value );
 						break;
 					case wfMessage( 'ext-numeralpha-list-pad-length' )->text():
 						self::$lists[ $name ][ 'padlength' ] = intVal( $value );
@@ -100,12 +101,21 @@ class NumerAlpha {
 					case wfMessage( 'ext-numeralpha-list-suffix' )->text():
 						self::$lists[ $name ][ 'suffix' ] = $value;
 						break;
+					case wfMessage( 'ext-numeralpha-list-level-label' )->text():
+						self::$lists[ $name ][ 'level' ] = intVal($value);
+						break;
 				}
 
 			}
 
 		}
-
+		
+		if (isset(self::$lists[$name]['level']))
+		{
+			if (self::$lists[$name]['level'] > self::$prevLevel) $newCountValue = 1;
+			self::$prevLevel = self::$lists[$name]['level'];
+		}
+		
 		// either set count value or increment existing value
 		if ( isset( $newCountValue ) ) {
 			self::$lists[ $name ][ 'count' ] = $newCountValue;
