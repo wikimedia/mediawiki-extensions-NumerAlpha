@@ -1,8 +1,18 @@
 {
 	"@metadata": {
 		"authors": [
-			"Andriykopanytsia"
+			"Andriykopanytsia",
+			"Ата"
 		]
 	},
-	"numeralpha-desc": "Забезпечує зростаючий тег з доповненими нулями числами, латинськими числами або алфавітно-числовими виразами"
+	"numeralpha-desc": "Забезпечує зростаючий тег з доповненими нулями числами, латинськими числами або алфавітно-числовими виразами",
+	"ext-numeralpha-list-type-numeral": "цифровий",
+	"ext-numeralpha-list-type-alpha": "алфавітний",
+	"ext-numeralpha-list-type-roman": "римський",
+	"ext-numeralpha-list-type-label": "тип",
+	"ext-numeralpha-list-set-label": "початок",
+	"ext-numeralpha-list-pad-length": "довжина",
+	"ext-numeralpha-list-pad-char": "символ",
+	"ext-numeralpha-list-prefix": "префікс",
+	"ext-numeralpha-list-suffix": "суфікс"
 }
