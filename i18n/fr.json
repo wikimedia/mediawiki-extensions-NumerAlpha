@@ -2,10 +2,18 @@
 	"@metadata": {
 		"authors": [
 			"Gomoko",
-			"Macofe"
+			"Macofe",
+			"Wladek92"
 		]
 	},
 	"numeralpha-desc": "Fournit une balise incrémentale avec des nombres complétés par des zéros, des nombres romains et alphabétiques",
+	"ext-numeralpha-list-type-numeral": "chiffre",
+	"ext-numeralpha-list-type-alpha": "alpha",
+	"ext-numeralpha-list-type-roman": "romain",
 	"ext-numeralpha-list-type-label": "type",
-	"ext-numeralpha-list-prefix": "préfixe"
+	"ext-numeralpha-list-set-label": "initialiser",
+	"ext-numeralpha-list-pad-length": "longueur de remplissage",
+	"ext-numeralpha-list-pad-char": "caractère de remplissage",
+	"ext-numeralpha-list-prefix": "préfixe",
+	"ext-numeralpha-list-suffix": "suffixe"
 }
