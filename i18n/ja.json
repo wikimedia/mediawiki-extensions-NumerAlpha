@@ -1,8 +1,15 @@
 {
 	"@metadata": {
 		"authors": [
-			"Shirayuki"
+			"Shirayuki",
+			"Otokoume"
 		]
 	},
-	"numeralpha-desc": "0 補完された番号およびアルファベットからなる連番のタグを提供する"
+	"numeralpha-desc": "0 補完された番号およびアルファベットからなる連番のタグを提供する",
+	"ext-numeralpha-list-type-numeral": "数値",
+	"ext-numeralpha-list-type-alpha": "英字",
+	"ext-numeralpha-list-type-roman": "ローマ字",
+	"ext-numeralpha-list-type-label": "種類",
+	"ext-numeralpha-list-prefix": "接頭辞",
+	"ext-numeralpha-list-suffix": "接尾辞"
 }
