@@ -28,7 +28,7 @@ class NumerAlpha {
 	static $listTypes = null;
 
 	// Hook our callback function into the parser
-	static public function onParserFirstCallInit ( Parser &$parser ) {
+	public static function onParserFirstCallInit ( Parser &$parser ) {
 
 		// When the parser sees the <sample> tag, it executes
 		// the wfSampleRender function (see below)
@@ -235,7 +235,7 @@ class NumerAlpha {
 	 *	Call parser function like {{#counter: Counter name | type = Counter type | set = 5 }}
 	 *
 	 **/
-	static public function renderCounter ( &$parser, $frame, $args ) {
+	public static function renderCounter ( &$parser, $frame, $args ) {
 
 		self::$frame = $frame;
 
@@ -255,7 +255,7 @@ class NumerAlpha {
 
 	}
 
-	static protected function getNumeralValue ( $list ) {
+	protected static function getNumeralValue ( $list ) {
 		$counterValue = str_pad(
 			$list[ 'count' ],
 			$list[ 'padlength' ],
@@ -267,7 +267,7 @@ class NumerAlpha {
 	}
 
 
-	static protected function getAlphaValue ( $list ) {
+	protected static function getAlphaValue ( $list ) {
 
 		$num = $list[ 'count' ];
 
@@ -282,7 +282,7 @@ class NumerAlpha {
 
 	}
 
-	static protected function getRomanValue ( $list ) {
+	protected static function getRomanValue ( $list ) {
 
 		$num = $list[ 'count' ];
 
@@ -312,7 +312,7 @@ class NumerAlpha {
 
 	}
 
-	static public function renderNumeralTag ( $input, array $argv, Parser $parser, PPFrame $frame ) {
+	public static function renderNumeralTag ( $input, array $argv, Parser $parser, PPFrame $frame ) {
 		if ( isset( $argv['reset'] ) && $argv['reset'] == "yes" OR isset( $argv['reset'] ) && $argv['reset'] == "1" ) {
 			self::$numer[1] = 1;
 		}
@@ -331,7 +331,7 @@ class NumerAlpha {
 		) ) . '<br />';
 	}
 
-	static public function renderAlphaTag ( $input, array $argv, Parser $parser, PPFrame $frame ) {
+	public static function renderAlphaTag ( $input, array $argv, Parser $parser, PPFrame $frame ) {
 
 		if (isset($argv['reset']) && $argv['reset'] == "yes" OR isset($argv['reset']) && $argv['reset'] == "1") {self::$numer[0] = 1;}
 		if (isset($argv['begin']) && $argv['begin'] != "") {self::$numer[0] = $argv['begin'];}
@@ -347,7 +347,7 @@ class NumerAlpha {
 	}
 
 	// ...render unto Caesar?
-	static public function renderRomanTag ( $input, array $argv, Parser $parser, PPFrame $frame ) {
+	public static function renderRomanTag ( $input, array $argv, Parser $parser, PPFrame $frame ) {
 
 		if (isset($argv['reset']) && $argv['reset'] == "yes" OR isset($argv['reset']) && $argv['reset'] == "1") {self::$numer[2] = 1;}
 		if (isset($argv['begin']) && $argv['begin'] != "") {self::$numer[2] = $argv['begin'];}
