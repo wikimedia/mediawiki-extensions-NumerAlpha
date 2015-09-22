@@ -2,17 +2,18 @@
 	"@metadata": {
 		"authors": [
 			"Metalhead64",
-			"Purodha"
+			"Purodha",
+			"Kghbln"
 		]
 	},
-	"numeralpha-desc": "Schafft ein Tag mit inkrementierbaren nullgefüllten, römischen Zahlen und Buchstaben",
+	"numeralpha-desc": "Ergänzt Tags sowie eine Parserfunktion mit denen Zahlen, römische Zahlen sowie Buchstaben hochgezählt werden können",
 	"ext-numeralpha-list-type-numeral": "numerisch",
 	"ext-numeralpha-list-type-alpha": "alphabetisch",
 	"ext-numeralpha-list-type-roman": "römisch",
 	"ext-numeralpha-list-type-label": "Typ",
-	"ext-numeralpha-list-set-label": "Satz",
-	"ext-numeralpha-list-pad-length": "Padlänge",
-	"ext-numeralpha-list-pad-char": "Padzeichen",
+	"ext-numeralpha-list-set-label": "Ausgangswert",
+	"ext-numeralpha-list-pad-length": "Auffülllänge",
+	"ext-numeralpha-list-pad-char": "Auffüllzeichen",
 	"ext-numeralpha-list-prefix": "Präfix",
 	"ext-numeralpha-list-suffix": "Suffix"
 }
