@@ -6,7 +6,7 @@
 			"Kghbln"
 		]
 	},
-	"numeralpha-desc": "Ergänzt Tags sowie eine Parserfunktion mit denen Zahlen, römische Zahlen sowie Buchstaben hochgezählt werden können",
+	"numeralpha-desc": "Bietet ein Tag, um Zahlen, römische Zahlen und Buchstaben weiterzuzählen",
 	"ext-numeralpha-list-type-numeral": "numerisch",
 	"ext-numeralpha-list-type-alpha": "alphabetisch",
 	"ext-numeralpha-list-type-roman": "römisch",
