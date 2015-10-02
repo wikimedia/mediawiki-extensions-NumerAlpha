@@ -15,5 +15,10 @@
 	"ext-numeralpha-list-pad-length": "longueur de remplissage",
 	"ext-numeralpha-list-pad-char": "caractère de remplissage",
 	"ext-numeralpha-list-prefix": "préfixe",
-	"ext-numeralpha-list-suffix": "suffixe"
+	"ext-numeralpha-list-suffix": "suffixe",
+	"ext-numeralpha-list-level-label": "niveau",
+	"ext-numeralpha-list-level-prefix-label": "préfixe de niveau",
+	"ext-numeralpha-list-format-label": "format",
+	"ext-numeralpha-list-format-standard": "standard",
+	"ext-numeralpha-list-format-outline": "contour"
 }

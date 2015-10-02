@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"Anj.balaji"
+		]
+	},
+	"ext-numeralpha-list-level-label": "நிலை",
+	"ext-numeralpha-list-level-prefix-label": "நிலை முன்னொட்டு",
+	"ext-numeralpha-list-format-label": "வடிதம்",
+	"ext-numeralpha-list-format-standard": "தரம்",
+	"ext-numeralpha-list-format-outline": "அவுட்லைன்"
+}

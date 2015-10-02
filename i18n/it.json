@@ -12,5 +12,10 @@
 	"ext-numeralpha-list-type-label": "tipo",
 	"ext-numeralpha-list-set-label": "imposta",
 	"ext-numeralpha-list-prefix": "prefisso",
-	"ext-numeralpha-list-suffix": "suffisso"
+	"ext-numeralpha-list-suffix": "suffisso",
+	"ext-numeralpha-list-level-label": "livello",
+	"ext-numeralpha-list-level-prefix-label": "livello di prefisso",
+	"ext-numeralpha-list-format-label": "formato",
+	"ext-numeralpha-list-format-standard": "standard",
+	"ext-numeralpha-list-format-outline": "contorno"
 }

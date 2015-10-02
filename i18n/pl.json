@@ -5,5 +5,7 @@
 		]
 	},
 	"ext-numeralpha-list-type-alpha": "alfabetycznie",
-	"ext-numeralpha-list-prefix": "przedrostek"
+	"ext-numeralpha-list-prefix": "przedrostek",
+	"ext-numeralpha-list-level-label": "poziom",
+	"ext-numeralpha-list-format-label": "format"
 }

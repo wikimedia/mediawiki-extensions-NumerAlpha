@@ -8,5 +8,6 @@
 	"ext-numeralpha-list-type-alpha": "alphabetesch",
 	"ext-numeralpha-list-type-roman": "réimesch",
 	"ext-numeralpha-list-type-label": "Typ",
-	"ext-numeralpha-list-prefix": "Prefix"
+	"ext-numeralpha-list-prefix": "Prefix",
+	"ext-numeralpha-list-level-label": "Niveau"
 }

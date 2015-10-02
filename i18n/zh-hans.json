@@ -13,5 +13,10 @@
 	"ext-numeralpha-list-pad-length": "填充长度",
 	"ext-numeralpha-list-pad-char": "填充字符",
 	"ext-numeralpha-list-prefix": "前缀",
-	"ext-numeralpha-list-suffix": "后缀"
+	"ext-numeralpha-list-suffix": "后缀",
+	"ext-numeralpha-list-level-label": "等级",
+	"ext-numeralpha-list-level-prefix-label": "等级前缀",
+	"ext-numeralpha-list-format-label": "格式",
+	"ext-numeralpha-list-format-standard": "标准",
+	"ext-numeralpha-list-format-outline": "大纲"
 }

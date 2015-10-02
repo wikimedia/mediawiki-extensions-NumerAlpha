@@ -9,5 +9,9 @@
 	"ext-numeralpha-list-type-numeral": "數字",
 	"ext-numeralpha-list-type-alpha": "字母",
 	"ext-numeralpha-list-type-label": "類型",
-	"ext-numeralpha-list-prefix": "字首"
+	"ext-numeralpha-list-prefix": "字首",
+	"ext-numeralpha-list-level-label": "等級",
+	"ext-numeralpha-list-format-label": "格式",
+	"ext-numeralpha-list-format-standard": "標準",
+	"ext-numeralpha-list-format-outline": "大綱"
 }

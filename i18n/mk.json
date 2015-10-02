@@ -13,5 +13,10 @@
 	"ext-numeralpha-list-pad-length": "должина на полето",
 	"ext-numeralpha-list-pad-char": "знак на поле",
 	"ext-numeralpha-list-prefix": "претставка",
-	"ext-numeralpha-list-suffix": "наставка"
+	"ext-numeralpha-list-suffix": "наставка",
+	"ext-numeralpha-list-level-label": "ниво",
+	"ext-numeralpha-list-level-prefix-label": "претставка за ниво",
+	"ext-numeralpha-list-format-label": "Формат",
+	"ext-numeralpha-list-format-standard": "стандарден",
+	"ext-numeralpha-list-format-outline": "основни црти"
 }

@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Shirayuki",
-			"Otokoume"
+			"Otokoume",
+			"Sujiniku"
 		]
 	},
 	"numeralpha-desc": "0 補完された番号およびアルファベットからなる連番のタグを提供する",
@@ -11,5 +12,10 @@
 	"ext-numeralpha-list-type-roman": "ローマ字",
 	"ext-numeralpha-list-type-label": "種類",
 	"ext-numeralpha-list-prefix": "接頭辞",
-	"ext-numeralpha-list-suffix": "接尾辞"
+	"ext-numeralpha-list-suffix": "接尾辞",
+	"ext-numeralpha-list-level-label": "レベル",
+	"ext-numeralpha-list-level-prefix-label": "レベル 接頭辞",
+	"ext-numeralpha-list-format-label": "フォーマット",
+	"ext-numeralpha-list-format-standard": "標準",
+	"ext-numeralpha-list-format-outline": "アウトライン"
 }
