@@ -9,5 +9,7 @@
 	"ext-numeralpha-list-type-roman": "réimesch",
 	"ext-numeralpha-list-type-label": "Typ",
 	"ext-numeralpha-list-prefix": "Prefix",
-	"ext-numeralpha-list-level-label": "Niveau"
+	"ext-numeralpha-list-level-label": "Niveau",
+	"ext-numeralpha-list-format-label": "Format",
+	"ext-numeralpha-list-format-standard": "Standard"
 }

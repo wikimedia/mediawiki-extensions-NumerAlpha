@@ -4,7 +4,8 @@
 			"Raimond Spekking",
 			"Umherirrender",
 			"James Montalvo",
-			"Liuxinyu970226"
+			"Liuxinyu970226",
+			"Robby"
 		]
 	},
 	"numeralpha-desc": "{{desc|name=NumerAlpha|url=https://www.mediawiki.org/wiki/Extension:NumerAlpha}}",
@@ -19,8 +20,8 @@
 	"ext-numeralpha-list-suffix": "Parser function parameter name for \"suffix\"",
 	"ext-numeralpha-list-level-label": "Parser function parameter name for \"level\", which determines what sub-list is desired. A level of 1 indicates that it's the top-level list where a level of 2 may be like an indented-once sub-list.",
 	"ext-numeralpha-list-level-prefix-label": "Parser function parameter name for \"level prefix\", which determines what characters may be prefixed before each level. So a level prefix of \"*\" (no quotes) would make a level 1 item be prefixed by \"*\" (no quotes) and a level 3 item be prefixed by \"***\"",
-	"ext-numeralpha-list-format-label": "Parser function parameter name for \"format\", which determines if the output of the list is in \"standard\" or \"outline\" format. A level 3 item in standard format may just be displayed as \"7\", but in \"outline\" format that same item may be displayed as \"3.2.7\"",
-	"ext-numeralpha-list-format-standard": "Word used to indicate that the format parameter is set to the standard format",
+	"ext-numeralpha-list-format-label": "Parser function parameter name for \"format\", which determines if the output of the list is in \"standard\" or \"outline\" format. A level 3 item in standard format may just be displayed as \"7\", but in \"outline\" format that same item may be displayed as \"3.2.7\"\n{{Identical|Format}}",
+	"ext-numeralpha-list-format-standard": "Word used to indicate that the format parameter is set to the standard format\n{{Identical|Standard}}",
 	"ext-numeralpha-list-format-outline": "Word used to indicate that the format parameter is set to the outline format",
 	"ext-numeralpha-list-format-outline-glue": "Default characters to put between numbers in outline format. English default is a period, which causes output like 1.6.3 or 2.5.7"
 }

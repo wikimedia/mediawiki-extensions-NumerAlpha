@@ -10,5 +10,10 @@
 	"ext-numeralpha-list-type-label": "tipo",
 	"ext-numeralpha-list-set-label": "selecciona",
 	"ext-numeralpha-list-prefix": "prefijo",
-	"ext-numeralpha-list-suffix": "sufijo"
+	"ext-numeralpha-list-suffix": "sufijo",
+	"ext-numeralpha-list-level-label": "nivel",
+	"ext-numeralpha-list-level-prefix-label": "prefijo de nivel",
+	"ext-numeralpha-list-format-label": "formato",
+	"ext-numeralpha-list-format-standard": "estándar",
+	"ext-numeralpha-list-format-outline": "esquema"
 }
