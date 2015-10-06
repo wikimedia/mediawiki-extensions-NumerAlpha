@@ -4,5 +4,8 @@
 			"Macofe"
 		]
 	},
-	"ext-numeralpha-list-type-label": "tipus"
+	"ext-numeralpha-list-type-label": "tipus",
+	"ext-numeralpha-list-level-label": "nivell",
+	"ext-numeralpha-list-format-label": "format",
+	"ext-numeralpha-list-format-standard": "estàndard"
 }

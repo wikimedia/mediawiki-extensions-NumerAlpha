@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Vitorvicentevalente"
+			"Vitorvicentevalente",
+			"Macofe"
 		]
 	},
 	"ext-numeralpha-list-type-numeral": "numérica",
@@ -9,5 +10,7 @@
 	"ext-numeralpha-list-type-label": "tipo",
 	"ext-numeralpha-list-prefix": "prefixo",
 	"ext-numeralpha-list-suffix": "sufixo",
-	"ext-numeralpha-list-format-label": "formato"
+	"ext-numeralpha-list-level-label": "nível",
+	"ext-numeralpha-list-format-label": "formato",
+	"ext-numeralpha-list-format-standard": "padrão"
 }

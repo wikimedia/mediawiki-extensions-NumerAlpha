@@ -9,5 +9,9 @@
 	"ext-numeralpha-list-type-alpha": "alfabättesch",
 	"ext-numeralpha-list-type-roman": "röhmesch",
 	"ext-numeralpha-list-type-label": "Zoot",
-	"ext-numeralpha-list-set-label": "säze"
+	"ext-numeralpha-list-set-label": "säze",
+	"ext-numeralpha-list-level-label": "Nivoh",
+	"ext-numeralpha-list-level-prefix-label": "örsaz förr_et Nivoh",
+	"ext-numeralpha-list-format-label": "Fommaht",
+	"ext-numeralpha-list-format-standard": "Schtanndatt"
 }
