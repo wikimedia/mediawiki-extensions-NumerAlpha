@@ -1,8 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
-			"Lokal Profil"
+			"Lokal Profil",
+			"WikiPhoenix"
 		]
 	},
-	"numeralpha-desc": "Tillhandahåller en inkrementell tagg med nollutfyllda nummer samt romerska och alfabetiska nummer."
+	"numeralpha-desc": "Tillhandahåller en inkrementell tagg med nollutfyllda nummer samt romerska och alfabetiska nummer.",
+	"ext-numeralpha-list-format-label": "format",
+	"ext-numeralpha-list-format-standard": "standard"
 }
