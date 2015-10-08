@@ -14,5 +14,10 @@
 	"ext-numeralpha-list-pad-length": "довжина",
 	"ext-numeralpha-list-pad-char": "символ",
 	"ext-numeralpha-list-prefix": "префікс",
-	"ext-numeralpha-list-suffix": "суфікс"
+	"ext-numeralpha-list-suffix": "суфікс",
+	"ext-numeralpha-list-level-label": "рівень",
+	"ext-numeralpha-list-level-prefix-label": "префікс рівня",
+	"ext-numeralpha-list-format-label": "формат",
+	"ext-numeralpha-list-format-standard": "стандартний",
+	"ext-numeralpha-list-format-outline": "контур"
 }
