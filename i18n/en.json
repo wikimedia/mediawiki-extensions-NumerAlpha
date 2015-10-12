@@ -1,10 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
+			"Kghbln",
 			"Thierry G. Veilleux (Kronoxt)"
 		]
 	},
-	"numeralpha-desc": "Provides an incremental tag with zero padded numbers, roman and alpha numbers",
+	"numeralpha-desc": "Provides methods of inserting incrementing numbers, letters and roman numerals",
 	"ext-numeralpha-list-type-numeral": "numeral",
 	"ext-numeralpha-list-type-alpha": "alpha",
 	"ext-numeralpha-list-type-roman": "roman",

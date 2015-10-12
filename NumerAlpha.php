@@ -19,9 +19,14 @@ if ( !defined( 'MEDIAWIKI' ) ) {
 $GLOBALS['wgExtensionCredits']['parserhook'][] = array(
 	'name' => 'NumerAlpha',
 	'version' => '0.7.0',
-	'author' => array( 'Thierry G. Veilleux', '[https://www.mediawiki.org/wiki/User:Jamesmontalvo3 James Montalvo]', 'Emanspeaks' ),
+	'author' => array( 'Thierry G. Veilleux',
+		'[https://www.mediawiki.org/wiki/User:Jamesmontalvo3 James Montalvo]',
+		'Emanspeaks',
+		'...'
+	),
 	'descriptionmsg' => 'numeralpha-desc',
-	'url' => 'https://www.mediawiki.org/wiki/Extension:NumerAlpha'
+	'url' => 'https://www.mediawiki.org/wiki/Extension:NumerAlpha',
+	'license-name' => 'PD'
 );
 
 $GLOBALS['wgMessagesDirs']['NumberAlpha'] = __DIR__ . '/i18n';
