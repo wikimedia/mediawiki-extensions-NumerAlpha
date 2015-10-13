@@ -6,7 +6,7 @@
 			"Kghbln"
 		]
 	},
-	"numeralpha-desc": "Bietet ein Tag, um Zahlen, römische Zahlen und Buchstaben weiterzuzählen",
+	"numeralpha-desc": "Bietet Methoden zum Einfügen weiterzählender Zahlen, Buchstaben und römischer Zahlen",
 	"ext-numeralpha-list-type-numeral": "numerisch",
 	"ext-numeralpha-list-type-alpha": "alphabetisch",
 	"ext-numeralpha-list-type-roman": "römisch",
