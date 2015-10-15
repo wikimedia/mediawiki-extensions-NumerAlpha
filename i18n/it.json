@@ -5,7 +5,7 @@
 			"Fringio"
 		]
 	},
-	"numeralpha-desc": "Fornisce un tag incrementale di numeri con zeri iniziali, numeri romani e alfabetico",
+	"numeralpha-desc": "Fornisce metodi per l'inserimento di numeri progressivi, lettere e numeri romani",
 	"ext-numeralpha-list-type-numeral": "numero",
 	"ext-numeralpha-list-type-alpha": "alfa",
 	"ext-numeralpha-list-type-roman": "numero romano",
