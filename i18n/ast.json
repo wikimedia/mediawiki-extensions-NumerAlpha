@@ -4,7 +4,7 @@
 			"Xuacu"
 		]
 	},
-	"numeralpha-desc": "Ufre una etiqueta d'incrementu con númberos precedíos por ceros, númberos romanos y alfa-numbéricos",
+	"numeralpha-desc": "Ufre métodos pa inxertar númberos, lletres y númberos romanos que s'incrementen",
 	"ext-numeralpha-list-type-numeral": "numbérica",
 	"ext-numeralpha-list-type-alpha": "alfabética",
 	"ext-numeralpha-list-type-roman": "romanos",
@@ -13,5 +13,10 @@
 	"ext-numeralpha-list-pad-length": "llargor de rellenu",
 	"ext-numeralpha-list-pad-char": "carácter de rellenu",
 	"ext-numeralpha-list-prefix": "prefixu",
-	"ext-numeralpha-list-suffix": "sufixu"
+	"ext-numeralpha-list-suffix": "sufixu",
+	"ext-numeralpha-list-level-label": "nivel",
+	"ext-numeralpha-list-level-prefix-label": "prefixu de nivel",
+	"ext-numeralpha-list-format-label": "formatu",
+	"ext-numeralpha-list-format-standard": "estándar",
+	"ext-numeralpha-list-format-outline": "esquema"
 }

@@ -4,7 +4,7 @@
 			"Liuxinyu970226"
 		]
 	},
-	"numeralpha-desc": "通过零填充数字、罗马和阿尔法数字提供增量标签",
+	"numeralpha-desc": "提供插入递增数字、字母和罗马数字的方法",
 	"ext-numeralpha-list-type-numeral": "数字",
 	"ext-numeralpha-list-type-alpha": "字母",
 	"ext-numeralpha-list-type-roman": "罗马数字",

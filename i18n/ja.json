@@ -6,7 +6,7 @@
 			"Sujiniku"
 		]
 	},
-	"numeralpha-desc": "0 補完された番号およびアルファベットからなる連番のタグを提供する",
+	"numeralpha-desc": "インクリメントな番号および文字とローマ数字を、挿入する方法を提供する",
 	"ext-numeralpha-list-type-numeral": "数値",
 	"ext-numeralpha-list-type-alpha": "英字",
 	"ext-numeralpha-list-type-roman": "ローマ字",
