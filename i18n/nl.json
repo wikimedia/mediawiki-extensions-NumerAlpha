@@ -4,5 +4,5 @@
 			"Siebrand"
 		]
 	},
-	"numeralpha-desc": "Biedt een incrementeel label met voorloop nullen, Romeins en alfanumeriek."
+	"numeralpha-desc": "Biedt methoden voor het invoegen van oplopende nummers en letters, en Romeinse cijfers"
 }
