@@ -6,7 +6,7 @@
 			"Elisardojm"
 		]
 	},
-	"numeralpha-desc": "Proporciona unha etiqueta incremental con números precedidos por ceros e números romanos e alfabéticos",
+	"numeralpha-desc": "Proporciona métodos para inserir números incrementais, letras e números romanos",
 	"ext-numeralpha-list-type-numeral": "numeral",
 	"ext-numeralpha-list-type-alpha": "alfa",
 	"ext-numeralpha-list-type-roman": "romano",
