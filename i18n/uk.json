@@ -5,7 +5,7 @@
 			"Ата"
 		]
 	},
-	"numeralpha-desc": "Забезпечує зростаючий тег з доповненими нулями числами, латинськими числами або алфавітно-числовими виразами",
+	"numeralpha-desc": "Забезпечує методи введення зростаючих чисел, літер та римських чисел",
 	"ext-numeralpha-list-type-numeral": "цифровий",
 	"ext-numeralpha-list-type-alpha": "алфавітний",
 	"ext-numeralpha-list-type-roman": "римський",
