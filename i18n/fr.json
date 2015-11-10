@@ -6,7 +6,7 @@
 			"Wladek92"
 		]
 	},
-	"numeralpha-desc": "Fournit une balise incrémentale avec des nombres complétés par des zéros, des nombres romains et alphabétiques",
+	"numeralpha-desc": "Fournit des méthodes pour insérer des nombres, des lettres et des chiffres romains, incrémentés",
 	"ext-numeralpha-list-type-numeral": "chiffre",
 	"ext-numeralpha-list-type-alpha": "alpha",
 	"ext-numeralpha-list-type-roman": "romain",
