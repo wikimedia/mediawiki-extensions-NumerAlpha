@@ -1,19 +1,23 @@
 {
 	"@metadata": {
 		"authors": [
-			"Jaideraf"
+			"Jaideraf",
+			"!Silent"
 		]
 	},
-	"numeralpha-desc": "Fornece uma etiqueta incremental que exibe números arábicos, números romanos e letras do alfabeto.",
+	"numeralpha-desc": "Fornece métodos de inserção de números incrementais, letras e algarismos romanos",
 	"ext-numeralpha-list-type-numeral": "numérico",
 	"ext-numeralpha-list-type-alpha": "alfabético",
 	"ext-numeralpha-list-type-roman": "romano",
 	"ext-numeralpha-list-type-label": "tipo",
 	"ext-numeralpha-list-set-label": "definir",
+	"ext-numeralpha-list-pad-length": "tamanho do bloco",
+	"ext-numeralpha-list-pad-char": "bloco do caractere",
 	"ext-numeralpha-list-prefix": "prefixo",
 	"ext-numeralpha-list-suffix": "sufixo",
 	"ext-numeralpha-list-level-label": "nível",
 	"ext-numeralpha-list-level-prefix-label": "prefixo do nível",
 	"ext-numeralpha-list-format-label": "formato",
-	"ext-numeralpha-list-format-standard": "padrão"
+	"ext-numeralpha-list-format-standard": "padrão",
+	"ext-numeralpha-list-format-outline": "esboço"
 }
