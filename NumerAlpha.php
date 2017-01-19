@@ -28,7 +28,7 @@ $GLOBALS['wgExtensionCredits']['parserhook'][] = array(
 	),
 	'descriptionmsg' => 'numeralpha-desc',
 	'url' => 'https://www.mediawiki.org/wiki/Extension:NumerAlpha',
-	'license-name' => 'PD'
+	'license-name' => 'Unlicense'
 );
 
 // Register extension messages
