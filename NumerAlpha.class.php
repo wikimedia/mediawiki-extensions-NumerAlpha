@@ -51,7 +51,7 @@ class NumerAlpha {
 				'NumerAlpha',  // class to call function from
 				'renderCounter' // function to call within that class
 			),
-			SFH_OBJECT_ARGS
+			Parser::SFH_OBJECT_ARGS
 		);
 
 		return true;
