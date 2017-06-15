@@ -6,7 +6,7 @@
 			"Kghbln"
 		]
 	},
-	"numeralpha-desc": "Bietet Methoden zum Einfügen weiterzählender Zahlen, Buchstaben und römischer Zahlen",
+	"numeralpha-desc": "Ermöglicht das Fortführen von Zahlen, römischen Zahlen und Buchstaben in aufsteigender Reihenfolge",
 	"ext-numeralpha-list-type-numeral": "numerisch",
 	"ext-numeralpha-list-type-alpha": "alphabetisch",
 	"ext-numeralpha-list-type-roman": "römisch",
