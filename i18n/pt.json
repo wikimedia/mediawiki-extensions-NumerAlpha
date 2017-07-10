@@ -2,15 +2,23 @@
 	"@metadata": {
 		"authors": [
 			"Vitorvicentevalente",
-			"Macofe"
+			"Macofe",
+			"Hamilton Abreu"
 		]
 	},
+	"numeralpha-desc": "Fornece métodos de inserção de sequências incrementais de números, letras e numeração romana",
 	"ext-numeralpha-list-type-numeral": "numérica",
+	"ext-numeralpha-list-type-alpha": "alfabética",
 	"ext-numeralpha-list-type-roman": "romana",
 	"ext-numeralpha-list-type-label": "tipo",
+	"ext-numeralpha-list-set-label": "inicial",
+	"ext-numeralpha-list-pad-length": "comprimento do preenchimento",
+	"ext-numeralpha-list-pad-char": "carácter de preenchimento",
 	"ext-numeralpha-list-prefix": "prefixo",
 	"ext-numeralpha-list-suffix": "sufixo",
 	"ext-numeralpha-list-level-label": "nível",
+	"ext-numeralpha-list-level-prefix-label": "prefixo de nível",
 	"ext-numeralpha-list-format-label": "formato",
-	"ext-numeralpha-list-format-standard": "padrão"
+	"ext-numeralpha-list-format-standard": "padrão",
+	"ext-numeralpha-list-format-outline": "lista estruturada"
 }
