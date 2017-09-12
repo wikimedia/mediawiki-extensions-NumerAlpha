@@ -1,8 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
-			"Benel"
+			"Benel",
+			"Tokoabibi"
 		]
 	},
+	"ext-numeralpha-list-type-label": "nikalahizaan",
+	"ext-numeralpha-list-level-label": "satangahan",
 	"ext-numeralpha-list-format-label": "kese"
 }
