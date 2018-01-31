@@ -2,15 +2,22 @@
 	"@metadata": {
 		"authors": [
 			"Cwlin0416",
-			"Liuxinyu970226"
+			"Liuxinyu970226",
+			"Kly"
 		]
 	},
-	"numeralpha-desc": "提供遞增編號的標籤，包含補零編號、羅馬及字母編號",
+	"numeralpha-desc": "提供插入遞增號碼、字母，以及羅馬數字的方法",
 	"ext-numeralpha-list-type-numeral": "數字",
 	"ext-numeralpha-list-type-alpha": "字母",
+	"ext-numeralpha-list-type-roman": "羅馬數字",
 	"ext-numeralpha-list-type-label": "類型",
+	"ext-numeralpha-list-set-label": "設定",
+	"ext-numeralpha-list-pad-length": "填充長度",
+	"ext-numeralpha-list-pad-char": "填充字元",
 	"ext-numeralpha-list-prefix": "字首",
+	"ext-numeralpha-list-suffix": "字尾",
 	"ext-numeralpha-list-level-label": "等級",
+	"ext-numeralpha-list-level-prefix-label": "字首多寡",
 	"ext-numeralpha-list-format-label": "格式",
 	"ext-numeralpha-list-format-standard": "標準",
 	"ext-numeralpha-list-format-outline": "大綱"
