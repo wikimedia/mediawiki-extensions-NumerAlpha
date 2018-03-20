@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Nikosgranturismogt"
+		]
+	},
+	"ext-numeralpha-list-type-numeral": "αριθμητικό",
+	"ext-numeralpha-list-type-alpha": "άλφα",
+	"ext-numeralpha-list-type-label": "τύπος",
+	"ext-numeralpha-list-set-label": "όρισε"
+}
