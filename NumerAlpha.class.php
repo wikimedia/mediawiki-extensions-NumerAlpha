@@ -40,9 +40,9 @@ class NumerAlpha {
 		// success or otherwise have meaning - it just must always be true.
 
 		self::$listTypes = array(
-			wfMessage( 'ext-numeralpha-list-type-numeral' )->text() => "numeral",
-			wfMessage( 'ext-numeralpha-list-type-alpha' )->text() => "alpha",
-			wfMessage( 'ext-numeralpha-list-type-roman' )->text() => "roman",
+			wfMessage( 'ext-numeralpha-list-type-numeral' )->inContentLanguage()->text() => "numeral",
+			wfMessage( 'ext-numeralpha-list-type-alpha' )->inContentLanguage()->text() => "alpha",
+			wfMessage( 'ext-numeralpha-list-type-roman' )->inContentLanguage()->text() => "roman",
 		);
 
 		$parser->setFunctionHook(
