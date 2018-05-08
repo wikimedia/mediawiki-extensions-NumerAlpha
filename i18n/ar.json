@@ -1,0 +1,22 @@
+{
+	"@metadata": {
+		"authors": [
+			"ديفيد"
+		]
+	},
+	"numeralpha-desc": "يوفر أساليب لإدخال أرقام متزايدة وحروف وأرقام رومانية",
+	"ext-numeralpha-list-type-numeral": "عددي",
+	"ext-numeralpha-list-type-alpha": "ألفا",
+	"ext-numeralpha-list-type-roman": "رومانية",
+	"ext-numeralpha-list-type-label": "النوع",
+	"ext-numeralpha-list-set-label": "ضبط",
+	"ext-numeralpha-list-pad-length": "طول لوحة التحكم",
+	"ext-numeralpha-list-pad-char": "حرف لوحة التحكم",
+	"ext-numeralpha-list-prefix": "البادئة",
+	"ext-numeralpha-list-suffix": "اللاحقة",
+	"ext-numeralpha-list-level-label": "المستوى",
+	"ext-numeralpha-list-level-prefix-label": "بادئة المستوى",
+	"ext-numeralpha-list-format-label": "الصيغة",
+	"ext-numeralpha-list-format-standard": "قياسي",
+	"ext-numeralpha-list-format-outline": "خطوط عريضة"
+}
