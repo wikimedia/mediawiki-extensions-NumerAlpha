@@ -4,8 +4,19 @@
 			"Nikosgranturismogt"
 		]
 	},
+	"numeralpha-desc": "Παρέχει μεθόδους εισαγωγής αυξανόμενων αριθμών, γραμμάτων και ρωμαϊκών αριθμών",
 	"ext-numeralpha-list-type-numeral": "αριθμητικό",
 	"ext-numeralpha-list-type-alpha": "άλφα",
+	"ext-numeralpha-list-type-roman": "λατινικό",
 	"ext-numeralpha-list-type-label": "τύπος",
-	"ext-numeralpha-list-set-label": "όρισε"
+	"ext-numeralpha-list-set-label": "όρισε",
+	"ext-numeralpha-list-pad-length": "μήκος μπλοκ",
+	"ext-numeralpha-list-pad-char": "χαρακτήρας μπλοκ",
+	"ext-numeralpha-list-prefix": "πρόεθμα",
+	"ext-numeralpha-list-suffix": "κατάληξη",
+	"ext-numeralpha-list-level-label": "επίπεδο",
+	"ext-numeralpha-list-level-prefix-label": "πρόθεμα επιπέδου",
+	"ext-numeralpha-list-format-label": "Μορφοποίηση",
+	"ext-numeralpha-list-format-standard": "πρότυπο",
+	"ext-numeralpha-list-format-outline": "περίγραμμα"
 }
