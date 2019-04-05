@@ -3,7 +3,7 @@
  * NumerAlpha MediaWiki extension - Provides an incremental tag
  * with zero padded numbers, roman and alpha numbers
  *
- * @link http://www.mediawiki.org/wiki/Extension:NumerAlpha Documentation
+ * @link https://www.mediawiki.org/wiki/Extension:NumerAlpha Documentation
  * @file NumerAlpha.php
  * @author Thierry G. Veilleux (Kronoxt), James Montalvo (jamesmontalvo3)
  * @copyright (C) 2009 Thierry G. Veilleux (Kronoxt)
