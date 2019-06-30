@@ -4,5 +4,19 @@
 			"Joetaras"
 		]
 	},
-	"numeralpha-desc": "Dèje metode pe 'nzerì numere ingremendale, lettere e numerale romane"
+	"numeralpha-desc": "Dèje metode pe 'nzerì numere ingremendale, lettere e numerale romane",
+	"ext-numeralpha-list-type-numeral": "numere",
+	"ext-numeralpha-list-type-alpha": "alfa",
+	"ext-numeralpha-list-type-roman": "numere romane",
+	"ext-numeralpha-list-type-label": "tipe",
+	"ext-numeralpha-list-set-label": "'mboste",
+	"ext-numeralpha-list-pad-length": "lunghezze d'u jenghiemende",
+	"ext-numeralpha-list-pad-char": "carattere de jenghiemende",
+	"ext-numeralpha-list-prefix": "prefisse",
+	"ext-numeralpha-list-suffix": "suffisse",
+	"ext-numeralpha-list-level-label": "levèlle",
+	"ext-numeralpha-list-level-prefix-label": "levèlle de prefisse",
+	"ext-numeralpha-list-format-label": "formate",
+	"ext-numeralpha-list-format-standard": "stàndàrd",
+	"ext-numeralpha-list-format-outline": "condorne"
 }
