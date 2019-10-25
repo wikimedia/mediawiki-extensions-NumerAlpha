@@ -5,14 +5,6 @@
  */
 class NumerAlphaTest extends MediaWikiTestCase {
 
-	protected function setUp() {
-		parent::setUp();
-	}
-
-	protected function tearDown() {
-		parent::tearDown();
-	}
-
 	public function testNumeralValues () {
 
 		$parser = new Parser();
