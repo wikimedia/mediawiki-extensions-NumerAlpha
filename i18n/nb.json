@@ -1,0 +1,22 @@
+{
+	"@metadata": {
+		"authors": [
+			"Jon Harald Søby"
+		]
+	},
+	"numeralpha-desc": "Gir metoder for å sette inn økende tall, bokstaver og romertall",
+	"ext-numeralpha-list-type-numeral": "tall",
+	"ext-numeralpha-list-type-alpha": "alfa",
+	"ext-numeralpha-list-type-roman": "romersk",
+	"ext-numeralpha-list-type-label": "type",
+	"ext-numeralpha-list-set-label": "sett",
+	"ext-numeralpha-list-pad-length": "utfyllingslengde",
+	"ext-numeralpha-list-pad-char": "utfyllingstegn",
+	"ext-numeralpha-list-prefix": "prefiks",
+	"ext-numeralpha-list-suffix": "suffiks",
+	"ext-numeralpha-list-level-label": "nivå",
+	"ext-numeralpha-list-level-prefix-label": "nivåprefiks",
+	"ext-numeralpha-list-format-label": "format",
+	"ext-numeralpha-list-format-standard": "standard",
+	"ext-numeralpha-list-format-outline": "oversikt"
+}
