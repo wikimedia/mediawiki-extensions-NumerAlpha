@@ -1,0 +1,22 @@
+{
+	"@metadata": {
+		"authors": [
+			"BaRaN6161 TURK"
+		]
+	},
+	"numeralpha-desc": "Artan sayılar, harfler ve romen rakamları ekleme yöntemleri sağlar",
+	"ext-numeralpha-list-type-numeral": "sayısal",
+	"ext-numeralpha-list-type-alpha": "alfa",
+	"ext-numeralpha-list-type-roman": "roma",
+	"ext-numeralpha-list-type-label": "tür",
+	"ext-numeralpha-list-set-label": "ayar",
+	"ext-numeralpha-list-pad-length": "ped uzunluğu",
+	"ext-numeralpha-list-pad-char": "ped karakter",
+	"ext-numeralpha-list-prefix": "önek",
+	"ext-numeralpha-list-suffix": "sonek",
+	"ext-numeralpha-list-level-label": "seviye",
+	"ext-numeralpha-list-level-prefix-label": "seviye önek",
+	"ext-numeralpha-list-format-label": "format",
+	"ext-numeralpha-list-format-standard": "standart",
+	"ext-numeralpha-list-format-outline": "taslak"
+}
