@@ -9,29 +9,18 @@
  * @copyright (C) 2009 Thierry G. Veilleux (Kronoxt)
  * @license http://www.publicdomainmanifesto.org/ Public Domain
  */
+if ( function_exists( 'wfLoadExtension' ) ) {
+	wfLoadExtension( 'NumerAlpha' );
+	// Keep i18n globals so mergeMessageFileList.php doesn't break
+	$wgMessagesDirs['NumerAlpha'] = __DIR__ . '/i18n';
+	$wgExtensionMessagesFiles['NumerAlphaMagic'] = __DIR__ . '/NumerAlpha.magic.php';
+	wfWarn(
+		'Deprecated PHP entry point used for the NumerAlpha extension. ' .
+		'Please use wfLoadExtension() instead, ' .
+		'see https://www.mediawiki.org/wiki/Special:MyLanguage/Manual:Extension_registration for more details.'
+	);
+	return;
+} else {
+	die( 'This version of the NumerAlpha extension requires MediaWiki 1.29+' );
+}
 
-// Tell everybody who we are
-$GLOBALS['wgExtensionCredits']['parserhook'][] = array(
-	'path' => '__FILE__',
-	'name' => 'NumerAlpha',
-	'version' => '0.7.0',
-	'author' => array(
-		'Thierry G. Veilleux',
-		'[https://www.mediawiki.org/wiki/User:Jamesmontalvo3 James Montalvo]',
-		'Emanspeaks',
-		'...'
-	),
-	'descriptionmsg' => 'numeralpha-desc',
-	'url' => 'https://www.mediawiki.org/wiki/Extension:NumerAlpha',
-	'license-name' => 'Unlicense'
-);
-
-// Register extension messages
-$GLOBALS['wgMessagesDirs']['NumberAlpha'] = __DIR__ . '/i18n';
-$GLOBALS['wgExtensionMessagesFiles']['NumerAlphaMagic'] = __DIR__ . '/NumerAlpha.magic.php';
-
-// Load extension's class
-$GLOBALS['wgAutoloadClasses']['NumerAlpha'] = __DIR__ . '/NumerAlpha.class.php';
-
-// Register hook
-$GLOBALS['wgHooks']['ParserFirstCallInit'][] = 'NumerAlpha::onParserFirstCallInit';

@@ -1,0 +1,33 @@
+{
+	"name": "NumerAlpha",
+	"version": "0.7.0",
+	"author": [
+		"Thierry G. Veilleux",
+		"[https://www.mediawiki.org/wiki/User:Jamesmontalvo3 James Montalvo]",
+		"Emanspeaks",
+		"..."
+	],
+	"url": "https://www.mediawiki.org/wiki/Extension:NumerAlpha",
+	"descriptionmsg": "numeralpha-desc",
+	"license-name": "Unlicense",
+	"type": "parserhook",
+	"requires": {
+		"MediaWiki": ">= 1.29.0"
+	},
+	"MessagesDirs": {
+		"NumberAlpha": [
+			"i18n"
+		]
+	},
+	"ExtensionMessagesFiles": {
+		"NumerAlphaMagic": "NumerAlpha.magic.php"
+	},
+	"AutoloadClasses": {
+		"NumerAlpha": "NumerAlpha.class.php"
+	},
+	"Hooks": {
+		"ParserFirstCallInit": "NumerAlpha::onParserFirstCallInit"
+	},
+	"load_composer_autoloader": true,
+	"manifest_version": 2
+}
