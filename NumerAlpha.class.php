@@ -17,13 +17,17 @@ class NumerAlpha {
 		1 => 1, // arabic
 		2 => 1, // roman
 	);
+
+	/**
+	 * @var PPFrame
+	 */
 	static $frame = null; // set with each use of parser function...
 	static $prevName = 'default'; // default counter name
 	static $lists = array();
 	static $listTypes = null;
 
 	// Hook our callback function into the parser
-	public static function onParserFirstCallInit ( Parser &$parser ) {
+	public static function onParserFirstCallInit ( Parser $parser ) {
 
 		// When the parser sees the <sample> tag, it executes
 		// the wfSampleRender function (see below)
@@ -230,7 +234,7 @@ class NumerAlpha {
 	 *	Call parser function like {{#counter: Counter name | type = Counter type | set = 5 }}
 	 *
 	 **/
-	public static function renderCounter ( &$parser, $frame, $args ) {
+	public static function renderCounter ( $parser, $frame, $args ) {
 
 		self::$frame = $frame;
 

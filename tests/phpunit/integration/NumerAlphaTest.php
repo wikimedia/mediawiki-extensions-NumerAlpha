@@ -1,14 +1,16 @@
 <?php
+
 /**
  * @group NumerAlpha
  * @covers NumerAlpha
  */
-class NumerAlphaTest extends MediaWikiTestCase {
+class NumerAlphaTest extends MediaWikiIntegrationTestCase {
 
 	public function testNumeralValues () {
 
-		$parser = new Parser();
-		$frame = new PPFrame_DOM( new Preprocessor_DOM( $parser ) );
+		$parser = null;
+		$frame = $this->createMock( PPFrame::class );
+		$frame->method( 'expand' )->willReturnArgument( 0 );
 
 		$this->assertEquals(
 			'1',
