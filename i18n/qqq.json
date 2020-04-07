@@ -1,11 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
-			"Raimond Spekking",
-			"Umherirrender",
 			"James Montalvo",
 			"Liuxinyu970226",
-			"Robby"
+			"Raimond Spekking",
+			"Robby",
+			"Umherirrender"
 		]
 	},
 	"numeralpha-desc": "{{desc|name=NumerAlpha|url=https://www.mediawiki.org/wiki/Extension:NumerAlpha}}",

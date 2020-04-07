@@ -2,8 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Lokal Profil",
-			"WikiPhoenix",
-			"Mjälten"
+			"Mjälten",
+			"WikiPhoenix"
 		]
 	},
 	"numeralpha-desc": "Tillhandahåller en inkrementell tagg med nollutfyllda nummer samt romerska och alfabetiska nummer.",

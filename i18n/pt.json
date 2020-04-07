@@ -1,9 +1,9 @@
 {
 	"@metadata": {
 		"authors": [
-			"Vitorvicentevalente",
+			"Hamilton Abreu",
 			"Macofe",
-			"Hamilton Abreu"
+			"Vitorvicentevalente"
 		]
 	},
 	"numeralpha-desc": "Fornece métodos de inserção de sequências incrementais de números, letras e numeração romana",
