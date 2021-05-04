@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"!Silent",
+			"Eduardoaddad",
 			"Jaideraf"
 		]
 	},
@@ -19,5 +20,5 @@
 	"ext-numeralpha-list-level-prefix-label": "prefixo do nível",
 	"ext-numeralpha-list-format-label": "formato",
 	"ext-numeralpha-list-format-standard": "padrão",
-	"ext-numeralpha-list-format-outline": "esboço"
+	"ext-numeralpha-list-format-outline": "rascunho"
 }
