@@ -1,8 +1,13 @@
 {
 	"@metadata": {
 		"authors": [
-			"Siebrand"
+			"Siebrand",
+			"Romaine"
 		]
 	},
-	"numeralpha-desc": "Biedt methoden voor het invoegen van oplopende nummers en letters, en Romeinse cijfers"
+	"numeralpha-desc": "Biedt methoden voor het invoegen van oplopende nummers en letters, en Romeinse cijfers",
+	"ext-numeralpha-list-type-numeral": "numeriek",
+	"ext-numeralpha-list-type-label": "type",
+	"ext-numeralpha-list-prefix": "voorvoegsel",
+	"ext-numeralpha-list-suffix": "achtervoegsel"
 }
