@@ -4,7 +4,7 @@
  * with zero padded numbers, roman and alpha numbers
  *
  * @link https://www.mediawiki.org/wiki/Extension:NumerAlpha Documentation
- * @file NumerAlpha.php
+ * @file NumerAlpha.class.php
  * @author Thierry G. Veilleux (Kronoxt), James Montalvo (jamesmontalvo3)
  * @copyright (C) 2009 Thierry G. Veilleux (Kronoxt)
  * @license http://www.publicdomainmanifesto.org/ Public Domain
