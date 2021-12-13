@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"!Silent",
-			"Jaideraf"
+			"Jaideraf",
+			"Eduardoaddad"
 		]
 	},
 	"numeralpha-desc": "Fornece métodos de inserção de números incrementais, letras e algarismos romanos",
@@ -19,5 +20,5 @@
 	"ext-numeralpha-list-level-prefix-label": "prefixo do nível",
 	"ext-numeralpha-list-format-label": "formato",
 	"ext-numeralpha-list-format-standard": "padrão",
-	"ext-numeralpha-list-format-outline": "esboço"
+	"ext-numeralpha-list-format-outline": "rascunho"
 }

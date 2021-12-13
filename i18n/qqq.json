@@ -23,5 +23,5 @@
 	"ext-numeralpha-list-format-label": "Parser function parameter name for \"format\", which determines if the output of the list is in \"standard\" or \"outline\" format. A level 3 item in standard format may just be displayed as \"7\", but in \"outline\" format that same item may be displayed as \"3.2.7\"\n{{Identical|Format}}",
 	"ext-numeralpha-list-format-standard": "Word used to indicate that the format parameter is set to the standard format\n{{Identical|Standard}}",
 	"ext-numeralpha-list-format-outline": "Word used to indicate that the format parameter is set to the outline format",
-	"ext-numeralpha-list-format-outline-glue": "Default characters to put between numbers in outline format. English default is a period, which causes output like 1.6.3 or 2.5.7"
+	"ext-numeralpha-list-format-outline-glue": "{{notranslate}}\nDefault characters to put between numbers in outline format. English default is a period, which causes output like 1.6.3 or 2.5.7"
 }
