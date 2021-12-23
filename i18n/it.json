@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Beta16",
-			"Fringio"
+			"Fringio",
+			"Mannivu"
 		]
 	},
 	"numeralpha-desc": "Fornisce metodi per l'inserimento di numeri progressivi, lettere e numeri romani",
