@@ -1,4 +1,5 @@
 {
+	"name": "NumerAlpha",
 	"private": true,
 	"scripts": {
 		"test": "grunt test"
