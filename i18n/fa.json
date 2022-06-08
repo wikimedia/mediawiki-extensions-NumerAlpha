@@ -2,9 +2,10 @@
 	"@metadata": {
 		"authors": [
 			"Armin1392",
+			"Jeeputer",
 			"Reza1615"
 		]
 	},
-	"numeralpha-desc": "ارائهٔ یک برچسب افزایشی با اعداد پوشیده شده از صفر، اعداد رومی و آلفا",
+	"numeralpha-desc": "روش‌هایی را برای افزودن شماره‌ها، حروف یا ارقام رومی افزایشی ارائه می‌دهد",
 	"ext-numeralpha-list-set-label": "مجموعه"
 }
