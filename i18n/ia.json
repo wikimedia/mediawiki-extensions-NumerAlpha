@@ -1,0 +1,22 @@
+{
+	"@metadata": {
+		"authors": [
+			"McDutchie"
+		]
+	},
+	"numeralpha-desc": "Forni methodos de inserer sequentias incremental de numeros, litteras e cifras roman",
+	"ext-numeralpha-list-type-numeral": "numeric",
+	"ext-numeralpha-list-type-alpha": "alphabetic",
+	"ext-numeralpha-list-type-roman": "roman",
+	"ext-numeralpha-list-type-label": "typo",
+	"ext-numeralpha-list-set-label": "initio",
+	"ext-numeralpha-list-pad-length": "longitude de reimpletion",
+	"ext-numeralpha-list-pad-char": "character de reimpletion",
+	"ext-numeralpha-list-prefix": "prefixo",
+	"ext-numeralpha-list-suffix": "suffixo",
+	"ext-numeralpha-list-level-label": "nivello",
+	"ext-numeralpha-list-level-prefix-label": "prefixo de nivello",
+	"ext-numeralpha-list-format-label": "formato",
+	"ext-numeralpha-list-format-standard": "standard",
+	"ext-numeralpha-list-format-outline": "contorno"
+}
