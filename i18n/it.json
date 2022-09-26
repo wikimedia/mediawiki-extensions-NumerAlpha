@@ -2,7 +2,9 @@
 	"@metadata": {
 		"authors": [
 			"Beta16",
-			"Fringio"
+			"Fringio",
+			"Mannivu",
+			"McDutchie"
 		]
 	},
 	"numeralpha-desc": "Fornisce metodi per l'inserimento di numeri progressivi, lettere e numeri romani",
@@ -14,7 +16,7 @@
 	"ext-numeralpha-list-prefix": "prefisso",
 	"ext-numeralpha-list-suffix": "suffisso",
 	"ext-numeralpha-list-level-label": "livello",
-	"ext-numeralpha-list-level-prefix-label": "livello di prefisso",
+	"ext-numeralpha-list-level-prefix-label": "prefisso di livello",
 	"ext-numeralpha-list-format-label": "formato",
 	"ext-numeralpha-list-format-standard": "standard",
 	"ext-numeralpha-list-format-outline": "contorno"
