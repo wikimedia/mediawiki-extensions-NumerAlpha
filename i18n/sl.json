@@ -4,6 +4,19 @@
 			"Eleassar"
 		]
 	},
+	"numeralpha-desc": "Zagotavlja načine za vstavljanje naraščajočih številk, črk in rimskih številk",
+	"ext-numeralpha-list-type-numeral": "številka",
+	"ext-numeralpha-list-type-alpha": "alfa",
+	"ext-numeralpha-list-type-roman": "rimska",
 	"ext-numeralpha-list-type-label": "tip",
-	"ext-numeralpha-list-format-label": "oblika"
+	"ext-numeralpha-list-set-label": "začetek",
+	"ext-numeralpha-list-pad-length": "dolžina polnila",
+	"ext-numeralpha-list-pad-char": "znak polnila",
+	"ext-numeralpha-list-prefix": "predpona",
+	"ext-numeralpha-list-suffix": "pripona",
+	"ext-numeralpha-list-level-label": "raven",
+	"ext-numeralpha-list-level-prefix-label": "predpona ravni",
+	"ext-numeralpha-list-format-label": "oblika",
+	"ext-numeralpha-list-format-standard": "standardni",
+	"ext-numeralpha-list-format-outline": "oris"
 }
