@@ -58,7 +58,7 @@ class NumerAlpha {
 
 	static function extractListOptions ( $rawArgs ) {
 
-		$name = trim( array_shift( $rawArgs ) ); // remove first element, since this is the counter name
+		$name = trim( array_shift( $rawArgs ) ?? '' ); // remove first element, since this is the counter name
 		if ( $name === "" ) {
 			$name = self::$prevName; // not set? get previous
 		}
