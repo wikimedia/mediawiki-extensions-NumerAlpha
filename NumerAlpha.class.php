@@ -326,7 +326,8 @@ class NumerAlpha {
 			'padlength' => 1,
 			'padchar' => 0,
 			'prefix' => '',
-			'suffix' => '. ' . $input
+			'suffix' => '. ' . $input,
+			'full level prefix' => '',
 		) ) . '<br />';
 	}
 
@@ -340,7 +341,8 @@ class NumerAlpha {
 		return self::getAlphaValue( array(
 			'count' => $num,
 			'prefix' => '',
-			'suffix' => '. ' . $input
+			'suffix' => '. ' . $input,
+			'full level prefix' => '',
 		) ) . '<br />';
 
 	}
@@ -357,7 +359,8 @@ class NumerAlpha {
 		return self::getRomanValue( array(
 			'count' => $num,
 			'prefix' => '',
-			'suffix' => '. ' . $input
+			'suffix' => '. ' . $input,
+			'full level prefix' => '',
 		) ) . '<br />';
 
 	}
