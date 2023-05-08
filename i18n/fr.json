@@ -3,15 +3,16 @@
 		"authors": [
 			"Gomoko",
 			"Macofe",
+			"Verdy p",
 			"Wladek92"
 		]
 	},
-	"numeralpha-desc": "Fournit des méthodes pour insérer des nombres, des lettres et des chiffres romains, incrémentés",
-	"ext-numeralpha-list-type-numeral": "chiffre",
-	"ext-numeralpha-list-type-alpha": "alpha",
+	"numeralpha-desc": "Fournit des méthodes pour insérer en les incrémentant des nombres, des lettres et des chiffres romains",
+	"ext-numeralpha-list-type-numeral": "numéral",
+	"ext-numeralpha-list-type-alpha": "alphabétique",
 	"ext-numeralpha-list-type-roman": "romain",
 	"ext-numeralpha-list-type-label": "type",
-	"ext-numeralpha-list-set-label": "initialiser",
+	"ext-numeralpha-list-set-label": "définir",
 	"ext-numeralpha-list-pad-length": "longueur de remplissage",
 	"ext-numeralpha-list-pad-char": "caractère de remplissage",
 	"ext-numeralpha-list-prefix": "préfixe",
@@ -20,5 +21,5 @@
 	"ext-numeralpha-list-level-prefix-label": "préfixe de niveau",
 	"ext-numeralpha-list-format-label": "format",
 	"ext-numeralpha-list-format-standard": "standard",
-	"ext-numeralpha-list-format-outline": "contour"
+	"ext-numeralpha-list-format-outline": "détaillé"
 }
