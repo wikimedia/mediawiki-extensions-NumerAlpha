@@ -1,0 +1,22 @@
+{
+	"@metadata": {
+		"authors": [
+			"Amire80"
+		]
+	},
+	"numeralpha-desc": "שיטות להכנסת מספרים, אותיות ומספרים רומיים עוקבים",
+	"ext-numeralpha-list-type-numeral": "ספרה",
+	"ext-numeralpha-list-type-alpha": "אלפביתי",
+	"ext-numeralpha-list-type-roman": "רומי",
+	"ext-numeralpha-list-type-label": "סוג",
+	"ext-numeralpha-list-set-label": "ערכה",
+	"ext-numeralpha-list-pad-length": "אורך ריפוד",
+	"ext-numeralpha-list-pad-char": "תו ריפוד",
+	"ext-numeralpha-list-prefix": "תחילית",
+	"ext-numeralpha-list-suffix": "סיומת",
+	"ext-numeralpha-list-level-label": "רמה",
+	"ext-numeralpha-list-level-prefix-label": "תחילית רמה",
+	"ext-numeralpha-list-format-label": "עיצוב",
+	"ext-numeralpha-list-format-standard": "תקני",
+	"ext-numeralpha-list-format-outline": "תת־סעיפים"
+}
