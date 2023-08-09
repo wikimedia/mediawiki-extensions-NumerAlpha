@@ -4,5 +4,6 @@
 			"Bosogo"
 		]
 	},
-	"ext-numeralpha-list-prefix": "префикс"
+	"ext-numeralpha-list-prefix": "префикс",
+	"ext-numeralpha-list-level-label": "деңгээл"
 }
