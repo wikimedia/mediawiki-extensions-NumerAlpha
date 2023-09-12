@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"TerranBoy"
+		]
+	},
+	"ext-numeralpha-list-type-alpha": "ئەلفبایی",
+	"ext-numeralpha-list-type-label": "جوور",
+	"ext-numeralpha-list-prefix": "پێشگر",
+	"ext-numeralpha-list-suffix": "پاشگر",
+	"ext-numeralpha-list-format-label": "فۆرمەت",
+	"ext-numeralpha-list-format-standard": "ستاندارد",
+	"ext-numeralpha-list-format-outline": "چوارچوو"
+}
