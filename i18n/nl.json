@@ -2,12 +2,23 @@
 	"@metadata": {
 		"authors": [
 			"Siebrand",
-			"Romaine"
+			"Romaine",
+			"McDutchie"
 		]
 	},
 	"numeralpha-desc": "Biedt methoden voor het invoegen van oplopende nummers en letters, en Romeinse cijfers",
 	"ext-numeralpha-list-type-numeral": "numeriek",
+	"ext-numeralpha-list-type-alpha": "alfabetisch",
+	"ext-numeralpha-list-type-roman": "Romeins",
 	"ext-numeralpha-list-type-label": "type",
+	"ext-numeralpha-list-set-label": "start",
+	"ext-numeralpha-list-pad-length": "opvullengte",
+	"ext-numeralpha-list-pad-char": "opvulteken",
 	"ext-numeralpha-list-prefix": "voorvoegsel",
-	"ext-numeralpha-list-suffix": "achtervoegsel"
+	"ext-numeralpha-list-suffix": "achtervoegsel",
+	"ext-numeralpha-list-level-label": "niveau",
+	"ext-numeralpha-list-level-prefix-label": "niveauvoorvoegsel",
+	"ext-numeralpha-list-format-label": "opmaak",
+	"ext-numeralpha-list-format-standard": "standaard",
+	"ext-numeralpha-list-format-outline": "overzicht"
 }
