@@ -6,5 +6,6 @@
 	},
 	"ext-numeralpha-list-set-label": "топтом",
 	"ext-numeralpha-list-prefix": "префикс",
-	"ext-numeralpha-list-level-label": "деңгээл"
+	"ext-numeralpha-list-level-label": "деңгээл",
+	"ext-numeralpha-list-format-label": "Формат"
 }
