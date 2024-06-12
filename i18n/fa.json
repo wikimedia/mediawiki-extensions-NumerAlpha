@@ -2,10 +2,12 @@
 	"@metadata": {
 		"authors": [
 			"Armin1392",
+			"Darafsh",
 			"Jeeputer",
 			"Reza1615"
 		]
 	},
 	"numeralpha-desc": "روش‌هایی را برای افزودن شماره‌ها، حروف یا ارقام رومی افزایشی ارائه می‌دهد",
-	"ext-numeralpha-list-set-label": "مجموعه"
+	"ext-numeralpha-list-set-label": "مجموعه",
+	"ext-numeralpha-list-format-standard": "استاندارد"
 }
