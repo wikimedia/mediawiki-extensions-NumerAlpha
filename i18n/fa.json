@@ -3,9 +3,11 @@
 		"authors": [
 			"Armin1392",
 			"Jeeputer",
-			"Reza1615"
+			"Reza1615",
+			"Darafsh"
 		]
 	},
 	"numeralpha-desc": "روش‌هایی را برای افزودن شماره‌ها، حروف یا ارقام رومی افزایشی ارائه می‌دهد",
-	"ext-numeralpha-list-set-label": "مجموعه"
+	"ext-numeralpha-list-set-label": "مجموعه",
+	"ext-numeralpha-list-format-standard": "استاندارد"
 }
