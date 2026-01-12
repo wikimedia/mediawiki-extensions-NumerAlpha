@@ -3,13 +3,22 @@
 		"authors": [
 			"Lokal Profil",
 			"Mjälten",
+			"Stefan2255",
 			"WikiPhoenix"
 		]
 	},
-	"numeralpha-desc": "Tillhandahåller en inkrementell tagg med nollutfyllda nummer samt romerska och alfabetiska nummer.",
+	"numeralpha-desc": "Tillhandahåller metoder för att infoga ökande tal, bokstäver och romerska siffror",
+	"ext-numeralpha-list-type-numeral": "siffra",
+	"ext-numeralpha-list-type-alpha": "alfa",
+	"ext-numeralpha-list-type-roman": "romersk",
+	"ext-numeralpha-list-type-label": "typ",
+	"ext-numeralpha-list-set-label": "uppsättning",
+	"ext-numeralpha-list-pad-length": "påfyllningslängd",
+	"ext-numeralpha-list-pad-char": "påfyllningstecken",
 	"ext-numeralpha-list-prefix": "Prefix",
 	"ext-numeralpha-list-suffix": "\nsuffix",
 	"ext-numeralpha-list-level-label": "Nivå",
+	"ext-numeralpha-list-level-prefix-label": "nivåprefix",
 	"ext-numeralpha-list-format-label": "format",
 	"ext-numeralpha-list-format-standard": "standard",
 	"ext-numeralpha-list-format-outline": "Översikt"
