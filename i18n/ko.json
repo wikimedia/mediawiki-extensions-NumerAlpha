@@ -4,5 +4,19 @@
 			"Tensama0415"
 		]
 	},
-	"numeralpha-desc": "증분 숫자, 문자 및 로마 숫자를 삽입하는 방법을 제공"
+	"numeralpha-desc": "증분 숫자, 문자 및 로마 숫자를 삽입하는 방법을 제공",
+	"ext-numeralpha-list-type-numeral": "숫자",
+	"ext-numeralpha-list-type-alpha": "알파벳",
+	"ext-numeralpha-list-type-roman": "로마 숫자",
+	"ext-numeralpha-list-type-label": "유형",
+	"ext-numeralpha-list-set-label": "설정",
+	"ext-numeralpha-list-pad-length": "패드 길이",
+	"ext-numeralpha-list-pad-char": "패드 문자",
+	"ext-numeralpha-list-prefix": "접두어",
+	"ext-numeralpha-list-suffix": "접미어",
+	"ext-numeralpha-list-level-label": "수준",
+	"ext-numeralpha-list-level-prefix-label": "수준 접두어",
+	"ext-numeralpha-list-format-label": "형식",
+	"ext-numeralpha-list-format-standard": "표준",
+	"ext-numeralpha-list-format-outline": "개요"
 }
