@@ -1,8 +1,23 @@
 {
 	"@metadata": {
 		"authors": [
-			"Ahmed-Najib-Biabani-Ibrahimkhel"
+			"Ahmed-Najib-Biabani-Ibrahimkhel",
+			"شاه زمان پټان"
 		]
 	},
-	"ext-numeralpha-list-prefix": "مختاړی"
+	"numeralpha-desc": "د زياتوالي شمېرې، توري او رومي شمېرو د ورټومبلو چلندلارې چمتو کوي",
+	"ext-numeralpha-list-type-numeral": "شمېريز",
+	"ext-numeralpha-list-type-alpha": "الفا",
+	"ext-numeralpha-list-type-roman": "رومي",
+	"ext-numeralpha-list-type-label": "ډول",
+	"ext-numeralpha-list-set-label": "ټولگه",
+	"ext-numeralpha-list-pad-length": "ليکچې اوږدوالی",
+	"ext-numeralpha-list-pad-char": "ليکچې لوښه",
+	"ext-numeralpha-list-prefix": "مختاړی",
+	"ext-numeralpha-list-suffix": "وروستاړی",
+	"ext-numeralpha-list-level-label": "کچه",
+	"ext-numeralpha-list-level-prefix-label": "د کچې مختاړی",
+	"ext-numeralpha-list-format-label": "بڼه",
+	"ext-numeralpha-list-format-standard": "کره",
+	"ext-numeralpha-list-format-outline": "باندکرښه"
 }
